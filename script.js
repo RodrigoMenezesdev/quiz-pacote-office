@@ -1,4 +1,4 @@
-const QUESTIONS_PER_BLOCK = 10; // ⭐️ CORRIGIDO: const em minúsculo
+const QUESTIONS_PER_BLOCK = 10;
 // A lista de perguntas original carregada do JSON
 let originalQuestions = [];
 // A nova lista de perguntas, embaralhada e usada no Quiz
@@ -14,8 +14,10 @@ const resultsArea = document.getElementById('results-area');
 const nextButton = document.getElementById('next-button');
 const backButton = document.getElementById('back-button');
 const finishButton = document.getElementById('finish-button');
+// ⭐️ AJUSTE ESSENCIAL: Declaração da nova constante para a mensagem de validação
+const validationMessage = document.getElementById('validation-message');
 
-// ⭐️ AJUSTADO: Array de mensagens estendido (11 motivacionais + 1 final)
+// Array de mensagens estendido
 const motivationMessages = [
     // Índice 0 (Bloco 1)
     "Parabéns pelo primeiro bloco! Você domina os conceitos básicos. Mantenha o foco, a excelência está logo ali!",
@@ -107,6 +109,17 @@ function renderBlock() {
         quizContent.appendChild(questionHtml);
     });
 
+    // ⭐️ AJUSTES APLICADOS AQUI (Controle de Visibilidade/Estado do Botão) ⭐️
+    // Mantenha o nextButton visível para que o usuário saiba que deve avançar
+    nextButton.style.display = 'block'; 
+    finishButton.style.display = 'none';
+    // Oculta a mensagem de erro ao carregar um novo bloco
+    validationMessage.style.display = 'none';
+    
+    // O botão sempre começa desabilitado. O updateNavigationButtons vai checar
+    // se o bloco já foi respondido (em caso de 'Voltar') e habilitá-lo.
+    nextButton.disabled = true;
+
     updateNavigationButtons();
 }
 
@@ -164,10 +177,16 @@ function handleAnswer(selectedButton, questionId, selectedIndex) {
 
     showFeedback(qBlock, isCorrect, selectedIndex);
 
+    // Bloqueia as opções no bloco atual
     qBlock.querySelectorAll('button').forEach(btn => btn.disabled = true);
+    
+    // ⭐️ ADICIONADO: Esconde a mensagem de validação assim que uma pergunta é respondida
+    validationMessage.style.display = 'none'; 
 
+    // ⭐️ AQUI CHAMAMOS A FUNÇÃO DE VERIFICAÇÃO DE CONCLUSÃO
     checkBlockCompletion();
 }
+
 
 // 6. Mostrar feedback visual e explicação
 function showFeedback(qBlock, isCorrect, selectedIndex) {
@@ -206,33 +225,51 @@ function showFeedback(qBlock, isCorrect, selectedIndex) {
     qBlock.appendChild(rationaleDiv);
 }
 
-// 7. Checar conclusão do bloco
+// 7. Checar conclusão do bloco e habilitar/desabilitar o botão
 function checkBlockCompletion() {
+    recalculateTotalScore(); // Garante que a pontuação total esteja atualizada
+    
     const startIdx = currentBlock * QUESTIONS_PER_BLOCK;
     const endIdx = startIdx + QUESTIONS_PER_BLOCK;
     const blockQuestions = shuffledQuestions.slice(startIdx, endIdx);
+    
+    // Verifica quantas perguntas do bloco atual têm uma resposta registrada no userAnswers
     const answeredInBlock = blockQuestions.filter(q => userAnswers[q.id] !== undefined).length;
 
-    if (answeredInBlock === QUESTIONS_PER_BLOCK) {
-        recalculateTotalScore();
+    const isBlockComplete = answeredInBlock === QUESTIONS_PER_BLOCK;
+    const isLastBlock = currentBlock >= (shuffledQuestions.length / QUESTIONS_PER_BLOCK) - 1;
 
-        if (currentBlock < (shuffledQuestions.length / QUESTIONS_PER_BLOCK) - 1) {
-            nextButton.style.display = 'block';
-            finishButton.style.display = 'none';
-        } else {
+    // ⭐️ Lógica de HABILITAR/DESABILITAR o Botão
+    if (isBlockComplete) {
+        nextButton.disabled = false;
+        
+        if (isLastBlock) {
+            // Último bloco: Esconde NEXT e mostra FINISH
             nextButton.style.display = 'none';
             finishButton.style.display = 'block';
+        } else {
+            // Bloco normal: Mostra NEXT e esconde FINISH
+            nextButton.style.display = 'block';
+            finishButton.style.display = 'none';
         }
-
-        displayBlockResults();
+        
+        // Se o bloco foi recém-concluído ou está sendo revisitado, mostre os resultados
+        displayBlockResults(); 
     } else {
-        nextButton.style.display = 'none';
+        // Bloco incompleto: sempre desabilita o botão
+        nextButton.disabled = true;
+        nextButton.style.display = 'block'; 
         finishButton.style.display = 'none';
-        resultsArea.style.display = 'none';
+        resultsArea.style.display = 'none'; // Esconde resultados do bloco se estiver incompleto
     }
+    
+    // Oculta a mensagem de erro (só será exibida se o usuário clicar no botão desabilitado/completo)
+    validationMessage.style.display = 'none';
+    
+    return isBlockComplete; // Retorna o status para uso no onclick do botão
 }
 
-// 8. Recalcular pontuação total
+// 8. Recalcular pontuação total (mantido, mas agora chamado dentro de checkBlockCompletion)
 function recalculateTotalScore() {
     totalHits = 0;
     totalErrors = 0;
@@ -242,7 +279,7 @@ function recalculateTotalScore() {
     });
 }
 
-// 9. Exibir resultado do bloco (⭐️ CORRIGIDO PARA MENSAGENS ÚNICAS)
+// 9. Exibir resultado do bloco 
 function displayBlockResults() {
     const startIdx = currentBlock * QUESTIONS_PER_BLOCK;
     const endIdx = startIdx + QUESTIONS_PER_BLOCK;
@@ -270,10 +307,8 @@ function displayBlockResults() {
         messageIndex = LAST_MESSAGE_INDEX;
     } else {
         // Usa o índice do bloco atual (currentBlock). 
-        // Garante que a mensagem final (LAST_MESSAGE_INDEX) nunca seja selecionada aqui.
         messageIndex = Math.min(currentBlock, LAST_MESSAGE_INDEX - 1);
     }
-    // FIM DA CORREÇÃO
 
     resultsArea.innerHTML = `
         <h3>Bloco ${currentBlock + 1} Concluído!</h3>
@@ -289,14 +324,24 @@ function displayBlockResults() {
 // 10. Atualizar botões de navegação
 function updateNavigationButtons() {
     backButton.style.display = currentBlock > 0 ? 'block' : 'none';
-    checkBlockCompletion();
+    // Chama a checagem que define o estado do NEXT/FINISH
+    checkBlockCompletion(); 
 }
 
 // 11. Navegação
 nextButton.onclick = () => {
-    if (currentBlock < shuffledQuestions.length / QUESTIONS_PER_BLOCK - 1) {
-        currentBlock++;
-        renderBlock();
+    // ⭐️ Lógica de VÁLIDAÇÃO no clique do botão
+    const isComplete = checkBlockCompletion(); // Verifica se o bloco está realmente completo
+
+    if (isComplete) {
+        // Se todas as perguntas foram respondidas, avança
+        if (currentBlock < shuffledQuestions.length / QUESTIONS_PER_BLOCK - 1) {
+            currentBlock++;
+            renderBlock();
+        }
+    } else {
+        // Se houver perguntas faltando, exibe a mensagem de erro
+        validationMessage.style.display = 'block';
     }
 };
 
@@ -306,10 +351,6 @@ backButton.onclick = () => {
         renderBlock();
     }
 };
-
-// 11. Navegação (AJUSTADA para incluir o botão SAIR)
-
-// ... (seus códigos nextButton e backButton)
 
 finishButton.onclick = () => {
     const totalQuestions = shuffledQuestions.length;
@@ -330,19 +371,29 @@ finishButton.onclick = () => {
     resultsArea.style.display = 'none';
 };
 
-// ⭐️ NOVA FUNÇÃO: Função para 'Sair do Quiz'
+// ⭐️ AJUSTE NA FUNÇÃO: Adicionar confirmação para evitar cliques acidentais
 function exitQuiz() {
-    quizContent.innerHTML = `
-        <div class="exit-screen">
-            <h2>Quiz Finalizado</h2>
-            <p>Obrigado por participar! Você pode fechar esta página.</p>
-        </div>
-    `;
-    // Esconde a área de navegação (que já estava escondida, mas é bom garantir)
-    navigationArea.style.display = 'none'; 
-    resultsArea.style.display = 'none';
+    // Pergunta ao usuário se ele tem certeza de que quer sair/perder o progresso
+    const confirmExit = confirm("Tem certeza que deseja sair do quiz? Todo o seu progresso neste bloco não será salvo.");
+
+    if (confirmExit) {
+        // Se o usuário confirmar, exibe a tela de saída
+        quizContent.innerHTML = `
+            <div class="exit-screen">
+                <h2>Quiz Finalizado Prematuramente</h2>
+                <p>Obrigado por participar! Seu progresso atual foi descartado.</p>
+                <div class="final-buttons">
+                    <button class="nav-button try-again" onclick="startQuiz()">Tentar Novamente</button>
+                </div>
+            </div>
+        `;
+        // Esconde as áreas de navegação e resultados
+        navigationArea.style.display = 'none'; 
+        resultsArea.style.display = 'none';
+    }
+    // Se o usuário clicar em "Cancelar", nada acontece e ele permanece no quiz.
 }
+
 
 // Inicia o quiz
 document.addEventListener('DOMContentLoaded', loadQuestions);
-
