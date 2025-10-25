@@ -1,0 +1,3122 @@
+[
+  {
+    "id": 1,
+    "question": "No Microsoft Word, qual atalho de teclado é comumente usado para salvar rapidamente as alterações de um documento ativo?",
+    "options": [
+      {
+        "text": "Ctrl + B",
+        "isCorrect": false,
+        "rationale": "Embora 'B' possa sugerir salvar em alguns contextos, no Word, o atalho Ctrl + B é reservado para aplicar o formato Negrito."
+      },
+      {
+        "text": "Ctrl + S",
+        "isCorrect": true,
+        "rationale": "O atalho Ctrl + S (de 'Salvar' ou 'Save' em inglês) é o comando padrão para salvar um documento no Word, atualizando o arquivo existente."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Este atalho, em versões em Português, geralmente abre a caixa de diálogo 'Localizar e Substituir' ou serve apenas para 'Localizar'."
+      },
+      {
+        "text": "Ctrl + J",
+        "isCorrect": false,
+        "rationale": "O atalho Ctrl + J é usado para aplicar o alinhamento Justificado ao parágrafo selecionado."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Qual é a função principal da ferramenta 'Pincel de Formatação' (Format Painter) no Word?",
+    "options": [
+      {
+        "text": "Copiar o texto selecionado e colá-lo em outro local.",
+        "isCorrect": false,
+        "rationale": "Esta é a função de Ctrl + C (Copiar) e Ctrl + V (Colar)."
+      },
+      {
+        "text": "Copiar o formato de um trecho de texto e aplicá-lo a outro trecho.",
+        "isCorrect": true,
+        "rationale": "O Pincel de Formatação 'pinta' as características de formatação (fonte, tamanho, cor, estilo de parágrafo) de uma seleção para outra."
+      },
+      {
+        "text": "Alterar a cor de fundo da página do documento.",
+        "isCorrect": false,
+        "rationale": "A cor de fundo da página é alterada na guia Design ou Layout."
+      },
+      {
+        "text": "Inserir uma imagem do seu computador no documento.",
+        "isCorrect": false,
+        "rationale": "A inserção de imagens é feita pela guia Inserir."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "No Microsoft Word, em qual guia (tab) encontramos as opções para configurar as margens do documento (como Normal, Estreita ou Larga)?",
+    "options": [
+      {
+        "text": "Inserir",
+        "isCorrect": false,
+        "rationale": "A guia Inserir é usada para adicionar elementos como tabelas, imagens e cabeçalhos."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "A guia Design foca em temas, cores e formatação geral do documento, mas não nas margens físicas."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": true,
+        "rationale": "A guia Layout é dedicada à formatação da página, incluindo Margens, Orientação, Tamanho e Colunas."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": false,
+        "rationale": "A guia Revisão é usada para verificar ortografia, gramática e controlar alterações."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Qual recurso do Word permite que múltiplos usuários revisem um documento e rastreiem as alterações feitas por cada um, mostrando adições, exclusões e formatações?",
+    "options": [
+      {
+        "text": "Mesclagem de Correspondência",
+        "isCorrect": false,
+        "rationale": "Mesclagem de Correspondência é para criar documentos personalizados em massa a partir de uma fonte de dados."
+      },
+      {
+        "text": "Modo de Leitura",
+        "isCorrect": false,
+        "rationale": "O Modo de Leitura apenas otimiza a visualização do documento."
+      },
+      {
+        "text": "Controlar Alterações",
+        "isCorrect": true,
+        "rationale": "O recurso 'Controlar Alterações' (ou 'Track Changes') na guia Revisão permite que as modificações sejam gravadas e revisadas antes de serem aceitas ou rejeitadas."
+      },
+      {
+        "text": "Painel de Navegação",
+        "isCorrect": false,
+        "rationale": "O Painel de Navegação ajuda a mover-se rapidamente pelo documento usando títulos e resultados de pesquisa."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Qual a extensão de arquivo padrão para documentos editáveis do Microsoft Word a partir da versão 2007?",
+    "options": [
+      {
+        "text": ".doc",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão do formato antigo do Word (versões 97 a 2003)."
+      },
+      {
+        "text": ".txt",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão para arquivos de texto simples, sem formatação, de qualquer editor."
+      },
+      {
+        "text": ".docx",
+        "isCorrect": true,
+        "rationale": "A extensão .docx representa o formato XML Aberto do Word, padrão a partir da versão 2007 e compatível com as versões mais recentes."
+      },
+      {
+        "text": ".pdf",
+        "isCorrect": false,
+        "rationale": "PDF (Portable Document Format) é um formato de arquivo universal para a troca de documentos, não o padrão editável do Word."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Qual é a principal vantagem de utilizar 'Estilos' (Styles) de título e parágrafo no Word?",
+    "options": [
+      {
+        "text": "Aumentar o tamanho do arquivo para melhorar a performance.",
+        "isCorrect": false,
+        "rationale": "O uso de estilos não visa aumentar o tamanho do arquivo, e um arquivo maior geralmente não melhora a performance."
+      },
+      {
+        "text": "Garantir a consistência da formatação e permitir a criação automática de um sumário ou índice.",
+        "isCorrect": true,
+        "rationale": "Os estilos garantem uma aparência uniforme e, ao marcar títulos, possibilitam que o Word gere um Índice ou Sumário automático e navegável."
+      },
+      {
+        "text": "Bloquear o documento para edição, exigindo uma senha para qualquer alteração.",
+        "isCorrect": false,
+        "rationale": "O bloqueio do documento é feito através da Proteção de Documento na guia Revisão, não pelos estilos."
+      },
+      {
+        "text": "Converter o documento automaticamente para o formato PDF.",
+        "isCorrect": false,
+        "rationale": "A conversão para PDF é feita através da opção Salvar Como ou Exportar."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "No Microsoft Excel, qual das seguintes fórmulas calcula a média aritmética de um intervalo de células, por exemplo, de A1 a A10?",
+    "options": [
+      {
+        "text": "=SOMA(A1:A10)",
+        "isCorrect": false,
+        "rationale": "Esta fórmula soma todos os valores no intervalo, mas não calcula a média."
+      },
+      {
+        "text": "=CONT.SE(A1:A10)",
+        "isCorrect": false,
+        "rationale": "Esta fórmula conta as células em um intervalo que atendem a um determinado critério."
+      },
+      {
+        "text": "=MÉDIA(A1:A10)",
+        "isCorrect": true,
+        "rationale": "A função MÉDIA no Excel é a forma correta de calcular o valor médio dos números no intervalo especificado."
+      },
+      {
+        "text": "=SE(A1>0)",
+        "isCorrect": false,
+        "rationale": "Esta é uma função condicional, não uma função de média."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "O que significa a referência de célula `$A$1` no Excel?",
+    "options": [
+      {
+        "text": "Referência relativa, que muda quando a fórmula é copiada.",
+        "isCorrect": false,
+        "rationale": "Referências relativas não possuem o cifrão ($)."
+      },
+      {
+        "text": "Referência mista, onde apenas a coluna ou a linha está fixa.",
+        "isCorrect": false,
+        "rationale": "Uma referência mista teria o cifrão apenas na coluna ($A1) ou apenas na linha (A$1)."
+      },
+      {
+        "text": "Referência absoluta, onde a coluna e a linha permanecem fixas quando a fórmula é copiada.",
+        "isCorrect": true,
+        "rationale": "O cifrão ($) antes da letra e do número indica que tanto a coluna quanto a linha são absolutas, ou seja, travadas."
+      },
+      {
+        "text": "Referência a um nome de planilha específica.",
+        "isCorrect": false,
+        "rationale": "Referências a outras planilhas usam o nome da planilha seguido de um ponto de exclamação (Ex: Planilha2!A1)."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "No Excel, a função `SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)` é usada para qual finalidade?",
+    "options": [
+      {
+        "text": "Somar valores que atendem a um critério.",
+        "isCorrect": false,
+        "rationale": "A função para essa finalidade é SOMASE."
+      },
+      {
+        "text": "Contar o número de células preenchidas em um intervalo.",
+        "isCorrect": false,
+        "rationale": "A função para essa finalidade é CONT.NÚM ou CONT.VALORES."
+      },
+      {
+        "text": "Realizar um teste condicional e retornar um valor com base no resultado de verdadeiro ou falso.",
+        "isCorrect": true,
+        "rationale": "A função SE permite que o Excel tome uma decisão: se a condição for verdadeira, ele retorna um resultado; se for falsa, retorna outro."
+      },
+      {
+        "text": "Arredondar um número para o inteiro mais próximo.",
+        "isCorrect": false,
+        "rationale": "A função para essa finalidade é ARRED."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Qual atalho de teclado é usado para inserir a **data** atual na célula ativa no Excel?",
+    "options": [
+      {
+        "text": "Ctrl + Shift + ;",
+        "isCorrect": false,
+        "rationale": "Este atalho é usado para inserir a hora atual."
+      },
+      {
+        "text": "Ctrl + ;",
+        "isCorrect": true,
+        "rationale": "O atalho Ctrl + ; (ponto e vírgula) é a forma padrão e mais rápida de inserir a data atual do sistema na célula selecionada."
+      },
+      {
+        "text": "Ctrl + Alt + D",
+        "isCorrect": false,
+        "rationale": "Este não é um atalho padrão para inserir a data no Excel."
+      },
+      {
+        "text": "Ctrl + D",
+        "isCorrect": false,
+        "rationale": "Este atalho é usado para preencher a célula ativa com o conteúdo da célula acima (Preencher para Baixo)."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "No Excel, qual função é usada para procurar um valor na primeira coluna de um intervalo e retornar um valor na mesma linha de uma coluna especificada?",
+    "options": [
+      {
+        "text": "PROCH",
+        "isCorrect": false,
+        "rationale": "A função PROCH busca valores em uma linha (Horizontal)."
+      },
+      {
+        "text": "SE",
+        "isCorrect": false,
+        "rationale": "A função SE é para testes condicionais, não para buscas."
+      },
+      {
+        "text": "SOMA",
+        "isCorrect": false,
+        "rationale": "A função SOMA apenas calcula a soma dos valores em um intervalo."
+      },
+      {
+        "text": "PROCV",
+        "isCorrect": true,
+        "rationale": "A função PROCV (Procura Vertical) é a ferramenta padrão para buscar dados em colunas."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Qual caractere deve ser usado no Excel para iniciar a digitação de qualquer fórmula ou função?",
+    "options": [
+      {
+        "text": "#",
+        "isCorrect": false,
+        "rationale": "O '#' é usado em códigos de erro ou para referências a nomes em algumas linguagens."
+      },
+      {
+        "text": "+",
+        "isCorrect": false,
+        "rationale": "O '+' pode ser usado para algumas operações matemáticas simples, mas não é o padrão para iniciar uma função."
+      },
+      {
+        "text": "=",
+        "isCorrect": true,
+        "rationale": "O sinal de igual (=) é o caractere obrigatório para indicar que o conteúdo da célula é uma fórmula ou função a ser calculada."
+      },
+      {
+        "text": "@",
+        "isCorrect": false,
+        "rationale": "O '@' é usado para referências estruturadas em tabelas ou em e-mails."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Para criar um Gráfico no Excel a partir de dados selecionados, qual guia da Faixa de Opções você deve acessar?",
+    "options": [
+      {
+        "text": "Fórmulas",
+        "isCorrect": false,
+        "rationale": "A guia Fórmulas é usada para inserir, auditar e gerenciar funções."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": false,
+        "rationale": "A guia Revisão é para ortografia e gramática."
+      },
+      {
+        "text": "Inserir",
+        "isCorrect": true,
+        "rationale": "Gráficos, Tabelas e Imagens são elementos de inserção, localizados na guia Inserir."
+      },
+      {
+        "text": "Layout da Página",
+        "isCorrect": false,
+        "rationale": "Essa guia foca na impressão e na formatação da página."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Qual é o atalho de teclado usado para aplicar o formato **Moeda** (com R$) rapidamente à célula ou intervalo selecionado no Excel?",
+    "options": [
+      {
+        "text": "Ctrl + Shift + %",
+        "isCorrect": false,
+        "rationale": "Este atalho aplica o formato Porcentagem."
+      },
+      {
+        "text": "Ctrl + Shift + $",
+        "isCorrect": true,
+        "rationale": "O atalho Ctrl + Shift + $ (ou o 4º da sequência) aplica o formato Contábil/Moeda."
+      },
+      {
+        "text": "Ctrl + Shift + #",
+        "isCorrect": false,
+        "rationale": "Este atalho aplica o formato Data."
+      },
+      {
+        "text": "Ctrl + 1",
+        "isCorrect": false,
+        "rationale": "Este atalho abre a caixa de diálogo 'Formatar Células'."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "No Excel, o que acontece com a fórmula `=A1+B1` se ela for copiada da célula C1 para a célula C2?",
+    "options": [
+      {
+        "text": "Permanece `=A1+B1`.",
+        "isCorrect": false,
+        "rationale": "Isso só aconteceria se as referências fossem absolutas ($A$1 e $B$1)."
+      },
+      {
+        "text": "Torna-se `=C1+D1`.",
+        "isCorrect": false,
+        "rationale": "As referências se movem para a linha 2, mas as colunas permanecem A e B."
+      },
+      {
+        "text": "Torna-se `=A2+B2`.",
+        "isCorrect": true,
+        "rationale": "Por serem referências relativas, ao mover a fórmula uma linha para baixo, as referências internas também se ajustam automaticamente uma linha para baixo."
+      },
+      {
+        "text": "Resulta em um erro (#REF!).",
+        "isCorrect": false,
+        "rationale": "Não há erro, pois as células A2 e B2 são válidas."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Qual é o nome da técnica usada no Excel para restringir os dados que podem ser inseridos em uma célula, garantindo a qualidade da informação (Ex: apenas números entre 1 e 100)?",
+    "options": [
+      {
+        "text": "Formatação Condicional",
+        "isCorrect": false,
+        "rationale": "Formatação Condicional apenas muda a aparência da célula com base em um valor, mas não impede a inserção."
+      },
+      {
+        "text": "Filtro",
+        "isCorrect": false,
+        "rationale": "Filtro é usado para ocultar dados que não atendem a um critério."
+      },
+      {
+        "text": "Validação de Dados",
+        "isCorrect": true,
+        "rationale": "A Validação de Dados, encontrada na guia Dados, é a ferramenta correta para definir regras de entrada de dados."
+      },
+      {
+        "text": "Tabela Dinâmica",
+        "isCorrect": false,
+        "rationale": "Tabelas Dinâmicas são usadas para resumir e analisar grandes quantidades de dados."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "No PowerPoint, qual guia você acessaria para aplicar um efeito de movimento à entrada, ênfase ou saída de um objeto (como um texto ou uma imagem) em um slide?",
+    "options": [
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "A guia Design foca na aparência geral do slide (temas, cores)."
+      },
+      {
+        "text": "Transições",
+        "isCorrect": false,
+        "rationale": "A guia Transições aplica um efeito ao slide inteiro (quando ele entra em cena)."
+      },
+      {
+        "text": "Animações",
+        "isCorrect": true,
+        "rationale": "A guia Animações controla o movimento e o comportamento de OBJETOS INDIVIDUAIS dentro de um slide."
+      },
+      {
+        "text": "Apresentação de Slides",
+        "isCorrect": false,
+        "rationale": "Esta guia controla como a apresentação será executada (iniciar do começo, ocultar slides)."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Qual atalho de teclado é usado para iniciar a apresentação de slides no PowerPoint a partir do **primeiro** slide, independentemente de qual slide esteja ativo no momento da edição?",
+    "options": [
+      {
+        "text": "Shift + F5",
+        "isCorrect": false,
+        "rationale": "Shift + F5 inicia a apresentação a partir do slide atual."
+      },
+      {
+        "text": "F5",
+        "isCorrect": true,
+        "rationale": "A tecla de função F5 é o atalho universal para iniciar a apresentação desde o início (primeiro slide)."
+      },
+      {
+        "text": "Ctrl + F5",
+        "isCorrect": false,
+        "rationale": "Não é um atalho padrão para iniciar a apresentação."
+      },
+      {
+        "text": "Ctrl + P",
+        "isCorrect": false,
+        "rationale": "Ctrl + P abre as opções de Impressão."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "No PowerPoint, qual é o recurso que aplica um efeito visual na **mudança** de um slide para o próximo durante a apresentação?",
+    "options": [
+      {
+        "text": "Animação",
+        "isCorrect": false,
+        "rationale": "Animação aplica movimento a um objeto (texto, imagem) dentro do slide."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design define o tema visual do slide (cores, fontes, fundo)."
+      },
+      {
+        "text": "Transição",
+        "isCorrect": true,
+        "rationale": "Transição é o efeito que ocorre no momento da passagem de um slide para o próximo."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout define a organização dos espaços reservados de um slide (título, texto, imagem)."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Para ocultar um slide de uma apresentação de slides sem removê-lo do arquivo, qual opção é usada?",
+    "options": [
+      {
+        "text": "Excluir Slide",
+        "isCorrect": false,
+        "rationale": "Excluir remove o slide permanentemente."
+      },
+      {
+        "text": "Formatar Slide",
+        "isCorrect": false,
+        "rationale": "Formatar Slide altera a aparência, mas não a visibilidade durante a apresentação."
+      },
+      {
+        "text": "Ocultar Slide",
+        "isCorrect": true,
+        "rationale": "A opção 'Ocultar Slide', na guia Apresentação de Slides, garante que o slide não apareça na exibição, mas permanece no arquivo para edição."
+      },
+      {
+        "text": "Modo de Estrutura de Tópicos",
+        "isCorrect": false,
+        "rationale": "Este é um modo de exibição para organizar o texto do slide, não para ocultá-lo."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Qual é a principal função do Microsoft Outlook no Pacote Office?",
+    "options": [
+      {
+        "text": "Criação de documentos de texto.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Microsoft Word."
+      },
+      {
+        "text": "Gerenciamento de e-mails, calendários e contatos.",
+        "isCorrect": true,
+        "rationale": "O Outlook é um cliente de e-mail e um poderoso gerenciador de informações pessoais."
+      },
+      {
+        "text": "Criação de apresentações visuais.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Microsoft PowerPoint."
+      },
+      {
+        "text": "Cálculo e análise de planilhas.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Microsoft Excel."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "No Outlook, o que representa o campo 'CCO' (Cópia Carbono Oculta) em uma nova mensagem?",
+    "options": [
+      {
+        "text": "O destinatário principal da mensagem.",
+        "isCorrect": false,
+        "rationale": "Este é o campo 'Para'."
+      },
+      {
+        "text": "O destinatário que receberá a cópia, visível para todos os outros destinatários.",
+        "isCorrect": false,
+        "rationale": "Este é o campo 'CC' (Cópia Carbono)."
+      },
+      {
+        "text": "O destinatário que receberá a cópia, mas cujo endereço ficará invisível para os demais destinatários (incluindo os campos 'Para' e 'CC').",
+        "isCorrect": true,
+        "rationale": "CCO (BCC em inglês) é usado para enviar uma cópia discretamente, protegendo a privacidade dos e-mails."
+      },
+      {
+        "text": "O remetente original da mensagem.",
+        "isCorrect": false,
+        "rationale": "O remetente é quem envia a mensagem."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Qual é o principal serviço de armazenamento em nuvem (cloud storage) da Microsoft, que se integra nativamente ao Pacote Office?",
+    "options": [
+      {
+        "text": "Google Drive",
+        "isCorrect": false,
+        "rationale": "Google Drive é o serviço de armazenamento do Google."
+      },
+      {
+        "text": "Dropbox",
+        "isCorrect": false,
+        "rationale": "Dropbox é um serviço de armazenamento independente."
+      },
+      {
+        "text": "OneDrive",
+        "isCorrect": true,
+        "rationale": "O OneDrive é o serviço de nuvem da Microsoft, essencial para a colaboração e sincronização no Office 365/Microsoft 365."
+      },
+      {
+        "text": "iCloud",
+        "isCorrect": false,
+        "rationale": "iCloud é o serviço de armazenamento da Apple."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "A qual conceito o OneDrive se relaciona mais diretamente dentro do Pacote Office?",
+    "options": [
+      {
+        "text": "Cálculos e funções avançadas.",
+        "isCorrect": false,
+        "rationale": "Relacionado ao Excel."
+      },
+      {
+        "text": "Colaboração em tempo real e acesso remoto a arquivos.",
+        "isCorrect": true,
+        "rationale": "O OneDrive permite que múltiplos usuários editem o mesmo arquivo simultaneamente e acessem documentos de qualquer lugar."
+      },
+      {
+        "text": "Edição offline de documentos sem a necessidade de internet.",
+        "isCorrect": false,
+        "rationale": "Embora a sincronização permita o trabalho offline, o principal benefício é o acesso e a colaboração online."
+      },
+      {
+        "text": "Criação de macros e automação de tarefas.",
+        "isCorrect": false,
+        "rationale": "Relacionado ao Visual Basic for Applications (VBA) nos aplicativos do Office."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Qual tecla de atalho é usada para **Cancelar** a última ação realizada em qualquer aplicativo do Office (Word, Excel, PowerPoint)?",
+    "options": [
+      {
+        "text": "Ctrl + X",
+        "isCorrect": false,
+        "rationale": "Ctrl + X é o atalho para Recortar (Cut)."
+      },
+      {
+        "text": "Ctrl + Z",
+        "isCorrect": true,
+        "rationale": "Ctrl + Z (Desfazer ou Undo) é o atalho padrão para reverter a ação anterior em quase todos os programas do Windows, incluindo os do Office."
+      },
+      {
+        "text": "Ctrl + Y",
+        "isCorrect": false,
+        "rationale": "Ctrl + Y é o atalho para Refazer (Refazer a ação desfeita)."
+      },
+      {
+        "text": "Ctrl + C",
+        "isCorrect": false,
+        "rationale": "Ctrl + C é o atalho para Copiar."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "No Excel, qual é a sintaxe correta para somar o valor da célula B5 e o valor da célula C5?",
+    "options": [
+      {
+        "text": "SOMA(B5+C5)",
+        "isCorrect": false,
+        "rationale": "A função SOMA deve usar dois pontos (:) para intervalos ou ponto e vírgula (;) para células separadas: =SOMA(B5; C5). O método mais simples é apenas =B5+C5."
+      },
+      {
+        "text": "=B5+C5",
+        "isCorrect": true,
+        "rationale": "O sinal de igualdade seguido da operação '+' entre as duas referências de célula é a sintaxe correta e mais direta."
+      },
+      {
+        "text": "B5;C5",
+        "isCorrect": false,
+        "rationale": "Faltam o sinal de igualdade e o operador matemático."
+      },
+      {
+        "text": "=SOMA(B5-C5)",
+        "isCorrect": false,
+        "rationale": "Essa fórmula subtrai os valores."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "O que significa o erro `#DIV/0!` no Excel?",
+    "options": [
+      {
+        "text": "A fórmula faz referência a uma célula inválida.",
+        "isCorrect": false,
+        "rationale": "Este seria o erro #REF!."
+      },
+      {
+        "text": "Foi utilizado um nome de função ou intervalo incorreto.",
+        "isCorrect": false,
+        "rationale": "Este seria o erro #NOME?."
+      },
+      {
+        "text": "A fórmula está tentando dividir um número por zero (0) ou por uma célula vazia.",
+        "isCorrect": true,
+        "rationale": "O erro #DIV/0! indica Divisão por Zero, que é uma operação matemática inválida."
+      },
+      {
+        "text": "O número é muito grande para caber na célula.",
+        "isCorrect": false,
+        "rationale": "Neste caso, a célula mostraria #####."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Para que serve a 'Formatação Condicional' no Excel?",
+    "options": [
+      {
+        "text": "Para bloquear células e impedir que sejam editadas.",
+        "isCorrect": false,
+        "rationale": "O bloqueio é feito com Proteger Planilha."
+      },
+      {
+        "text": "Para resumir grandes volumes de dados em uma tabela.",
+        "isCorrect": false,
+        "rationale": "Essa é a função da Tabela Dinâmica."
+      },
+      {
+        "text": "Para aplicar automaticamente um formato (cor, ícone, barra) à célula se ela atender a uma regra ou critério (condição).",
+        "isCorrect": true,
+        "rationale": "A Formatação Condicional permite criar regras para destacar visualmente os dados de acordo com seus valores."
+      },
+      {
+        "text": "Para impedir a inserção de dados inválidos.",
+        "isCorrect": false,
+        "rationale": "Essa é a função da Validação de Dados."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "No Excel, o que diferencia a função `CONT.NÚM` da função `CONT.VALORES`?",
+    "options": [
+      {
+        "text": "CONT.NÚM conta apenas células vazias, e CONT.VALORES conta todas.",
+        "isCorrect": false,
+        "rationale": "CONT.NÚM e CONT.VALORES contam células preenchidas. CONT.VAZIO conta células vazias."
+      },
+      {
+        "text": "CONT.NÚM conta células com números e datas; CONT.VALORES conta células não vazias (incluindo números, textos e valores lógicos).",
+        "isCorrect": true,
+        "rationale": "CONT.NÚM é restrita a conteúdo numérico, enquanto CONT.VALORES é mais abrangente, contando qualquer célula preenchida."
+      },
+      {
+        "text": "CONT.NÚM conta apenas células com texto, e CONT.VALORES conta células com números.",
+        "isCorrect": false,
+        "rationale": "A função que conta texto é CONT.SE com critério de texto, ou CONT.VALORES."
+      },
+      {
+        "text": "Ambas as funções são idênticas e fazem a mesma coisa.",
+        "isCorrect": false,
+        "rationale": "Elas são diferentes, como explicado na alternativa correta."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Para que serve o recurso 'Tabela Dinâmica' (Pivot Table) no Excel?",
+    "options": [
+      {
+        "text": "Para criar planilhas interativas com botões e macros.",
+        "isCorrect": false,
+        "rationale": "Isso envolve o uso de Visual Basic for Applications (VBA)."
+      },
+      {
+        "text": "Para calcular automaticamente a média e o desvio padrão de todos os dados.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com funções estatísticas básicas."
+      },
+      {
+        "text": "Para organizar os dados em ordem alfabética ou numérica.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com os recursos Classificar e Filtrar."
+      },
+      {
+        "text": "Para resumir, analisar, explorar e apresentar grandes volumes de dados de forma flexível.",
+        "isCorrect": true,
+        "rationale": "A Tabela Dinâmica permite que o usuário resuma dados complexos, pivotando colunas e linhas para obter diferentes perspectivas e insights."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "No Word, qual atalho de teclado é usado para aplicar o alinhamento **Centralizado** ao parágrafo selecionado?",
+    "options": [
+      {
+        "text": "Ctrl + E",
+        "isCorrect": true,
+        "rationale": "Ctrl + E é o atalho para 'Centralizar' (de 'Eixo', pois o 'C' é usado para Copiar)."
+      },
+      {
+        "text": "Ctrl + J",
+        "isCorrect": false,
+        "rationale": "Ctrl + J é o atalho para Justificado."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é o atalho para Alinhar à Direita."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Ctrl + L é usado para 'Localizar'."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Para iniciar um novo parágrafo em um documento Word, qual tecla você pressiona?",
+    "options": [
+      {
+        "text": "Tab",
+        "isCorrect": false,
+        "rationale": "Tab insere uma tabulação ou avança para a próxima célula em uma tabela."
+      },
+      {
+        "text": "Shift + Enter",
+        "isCorrect": false,
+        "rationale": "Shift + Enter insere uma quebra de linha (mantém o mesmo parágrafo)."
+      },
+      {
+        "text": "Enter",
+        "isCorrect": true,
+        "rationale": "A tecla Enter finaliza o parágrafo atual e inicia um novo parágrafo, copiando a formatação do parágrafo anterior."
+      },
+      {
+        "text": "Ctrl + Enter",
+        "isCorrect": false,
+        "rationale": "Ctrl + Enter insere uma quebra de página."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "No Word, qual recurso da guia 'Layout' deve ser usado se você deseja que a próxima página tenha margens ou orientação diferente das páginas anteriores?",
+    "options": [
+      {
+        "text": "Quebra de Coluna",
+        "isCorrect": false,
+        "rationale": "Quebra de Coluna apenas move o texto para a próxima coluna."
+      },
+      {
+        "text": "Quebra de Linha",
+        "isCorrect": false,
+        "rationale": "Quebra de Linha (Shift+Enter) apenas avança para a linha de baixo."
+      },
+      {
+        "text": "Quebra de Página",
+        "isCorrect": false,
+        "rationale": "Quebra de Página inicia uma nova página, mas mantém a mesma formatação de seção."
+      },
+      {
+        "text": "Quebra de Seção",
+        "isCorrect": true,
+        "rationale": "Uma Quebra de Seção é o recurso essencial para aplicar formatações diferentes (margens, cabeçalhos, rodapés) em partes distintas do mesmo documento."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "O que a tecla de atalho `Ctrl + B` faz no Microsoft Word?",
+    "options": [
+      {
+        "text": "Abre o Painel de Navegação para Busca.",
+        "isCorrect": false,
+        "rationale": "Ctrl + B em algumas versões pode ser usado para Negrito."
+      },
+      {
+        "text": "Salva o documento.",
+        "isCorrect": false,
+        "rationale": "O atalho para Salvar é Ctrl + S."
+      },
+      {
+        "text": "Aplica ou remove o formato **Negrito** (Bold).",
+        "isCorrect": true,
+        "rationale": "O atalho Ctrl + B (de 'Bold' ou Negrito) é o comando para aplicar ou remover essa formatação na seleção."
+      },
+      {
+        "text": "Abre a caixa de diálogo para 'Localizar e Substituir'.",
+        "isCorrect": false,
+        "rationale": "Ctrl + L ou Ctrl + U em algumas versões."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Qual guia do Word permite inserir elementos como 'Cabeçalho', 'Rodapé' e 'Número de Página'?",
+    "options": [
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas e cores."
+      },
+      {
+        "text": "Inserir",
+        "isCorrect": true,
+        "rationale": "Cabeçalho e Rodapé são elementos que você 'insere' no documento."
+      },
+      {
+        "text": "Referências",
+        "isCorrect": false,
+        "rationale": "Referências é para sumário, notas de rodapé e citações."
+      },
+      {
+        "text": "Exibir",
+        "isCorrect": false,
+        "rationale": "Exibir é para alterar o modo de visualização (layout de impressão, rascunho)."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "No Excel, se a célula A1 contém o número 10 e a célula B1 contém o texto 'Total', qual será o resultado da fórmula `=A1+B1`?",
+    "options": [
+      {
+        "text": "10",
+        "isCorrect": false,
+        "rationale": "O Excel tentará somar o texto, o que gera um erro."
+      },
+      {
+        "text": "Total",
+        "isCorrect": false,
+        "rationale": "O resultado seria um número ou um erro, não o texto."
+      },
+      {
+        "text": "O erro `#VALOR!`",
+        "isCorrect": true,
+        "rationale": "O erro #VALOR! é retornado quando uma fórmula tenta executar uma operação matemática (como soma) em células que contêm tipos de dados incompatíveis (como texto)."
+      },
+      {
+        "text": "20",
+        "isCorrect": false,
+        "rationale": "Não há operação que resulte em 20 neste caso."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Qual atalho de teclado abre a caixa de diálogo 'Formatar Células' no Excel, que permite mudar o formato de número, alinhamento, fonte e bordas?",
+    "options": [
+      {
+        "text": "Ctrl + F",
+        "isCorrect": false,
+        "rationale": "Ctrl + F abre a caixa de diálogo 'Localizar'."
+      },
+      {
+        "text": "Ctrl + A",
+        "isCorrect": false,
+        "rationale": "Ctrl + A seleciona tudo."
+      },
+      {
+        "text": "Ctrl + 1",
+        "isCorrect": true,
+        "rationale": "O atalho universal Ctrl + 1 abre as configurações de formato do objeto ou célula selecionada."
+      },
+      {
+        "text": "Ctrl + P",
+        "isCorrect": false,
+        "rationale": "Ctrl + P abre a caixa de Impressão."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Para aplicar a função `SOMASE(intervalo; critério; intervalo_soma)`, o que o argumento 'intervalo' representa?",
+    "options": [
+      {
+        "text": "O intervalo de células que contém os números a serem somados.",
+        "isCorrect": false,
+        "rationale": "Este é o 'intervalo_soma'."
+      },
+      {
+        "text": "O intervalo onde a função deve buscar o critério para decidir quais valores somar.",
+        "isCorrect": true,
+        "rationale": "O primeiro argumento 'intervalo' define onde a regra ('critério') será aplicada."
+      },
+      {
+        "text": "O resultado final da soma.",
+        "isCorrect": false,
+        "rationale": "O resultado final é o valor que a função retorna."
+      },
+      {
+        "text": "O intervalo de células a serem ignoradas.",
+        "isCorrect": false,
+        "rationale": "O Excel não tem um argumento para ignorar células neste contexto."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "O que a 'Alça de Preenchimento' (o pequeno quadrado no canto inferior direito de uma célula ativa) permite fazer no Excel?",
+    "options": [
+      {
+        "text": "Apenas mover o conteúdo da célula para outro local.",
+        "isCorrect": false,
+        "rationale": "Mover é feito arrastando a borda da célula."
+      },
+      {
+        "text": "Copiar automaticamente o conteúdo, fórmulas ou criar séries lógicas (como datas ou números) em células adjacentes.",
+        "isCorrect": true,
+        "rationale": "A Alça de Preenchimento (Fill Handle) é a forma mais rápida de preencher automaticamente células adjacentes, estendendo sequências ou copiando fórmulas com ajustes relativos."
+      },
+      {
+        "text": "Alterar o tamanho da coluna ou linha.",
+        "isCorrect": false,
+        "rationale": "O tamanho é alterado no cabeçalho da coluna/linha."
+      },
+      {
+        "text": "Inserir um gráfico rapidamente.",
+        "isCorrect": false,
+        "rationale": "Gráficos são inseridos pela guia Inserir."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "No Excel, qual função retorna o maior valor de um intervalo de células?",
+    "options": [
+      {
+        "text": "SOMA",
+        "isCorrect": false,
+        "rationale": "SOMA calcula o total."
+      },
+      {
+        "text": "MÁXIMO",
+        "isCorrect": true,
+        "rationale": "A função MÁXIMO (ou MAX em algumas versões) retorna o maior número do conjunto de valores."
+      },
+      {
+        "text": "MÍNIMO",
+        "isCorrect": false,
+        "rationale": "MÍNIMO retorna o menor valor."
+      },
+      {
+        "text": "MÉDIA",
+        "isCorrect": false,
+        "rationale": "MÉDIA retorna o valor médio."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "No PowerPoint, qual é a visualização mais útil para reorganizar slides rapidamente (arrastar e soltar), sem o foco nos detalhes do conteúdo de cada slide?",
+    "options": [
+      {
+        "text": "Normal",
+        "isCorrect": false,
+        "rationale": "O modo Normal é a visualização de edição principal, focada em um slide por vez."
+      },
+      {
+        "text": "Apresentação de Slides",
+        "isCorrect": false,
+        "rationale": "Apresentação de Slides é a visualização de execução em tela cheia."
+      },
+      {
+        "text": "Classificação de Slides",
+        "isCorrect": true,
+        "rationale": "A Classificação de Slides (Slide Sorter) exibe miniaturas de todos os slides, facilitando a reordenação em massa."
+      },
+      {
+        "text": "Modo de Estrutura de Tópicos",
+        "isCorrect": false,
+        "rationale": "Este modo foca apenas no texto, não na ordem visual dos slides."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Qual elemento do slide mestre (Slide Master) no PowerPoint permite aplicar formatação consistente (logotipos, fontes, cores) a todos os layouts e slides da apresentação?",
+    "options": [
+      {
+        "text": "Painel de Animações",
+        "isCorrect": false,
+        "rationale": "O Painel de Animações é usado para controlar a ordem dos efeitos de movimento."
+      },
+      {
+        "text": "Modo de Exibição Rascunho",
+        "isCorrect": false,
+        "rationale": "O Rascunho é um modo de edição de texto."
+      },
+      {
+        "text": "Slide Mestre",
+        "isCorrect": true,
+        "rationale": "O Slide Mestre (ou Mestre de Slides) é o slide de nível superior que armazena informações sobre o tema e os layouts de slides da apresentação, garantindo consistência."
+      },
+      {
+        "text": "Transições",
+        "isCorrect": false,
+        "rationale": "Transições são efeitos de passagem entre slides."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "No PowerPoint, qual guia você usaria para configurar o TEMPO em que as transições dos slides devem ocorrer automaticamente (em vez de avançar com um clique)?",
+    "options": [
+      {
+        "text": "Animações",
+        "isCorrect": false,
+        "rationale": "Animações controlam o tempo dos objetos dentro do slide."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas visuais."
+      },
+      {
+        "text": "Transições",
+        "isCorrect": true,
+        "rationale": "A guia Transições não apenas aplica o efeito de passagem, mas também controla a 'Duração' do efeito e o avanço automático ('Avançar Slide Após')."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": false,
+        "rationale": "Revisão é para verificar ortografia e gramática."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Qual atalho de teclado, durante a exibição de uma apresentação de slides (Modo F5), permite desenhar com uma caneta ou destacar informações na tela?",
+    "options": [
+      {
+        "text": "Ctrl + P",
+        "isCorrect": false,
+        "rationale": "Ctrl + P é o atalho para imprimir."
+      },
+      {
+        "text": "Ctrl + A",
+        "isCorrect": true,
+        "rationale": "Ctrl + A (ou Ponto e Vírgula -;) exibe o ponteiro como uma caneta ou laser, permitindo anotações temporárias no slide."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Ctrl + L exibe o ponteiro laser (sem as funcionalidades de caneta)."
+      },
+      {
+        "text": "Ctrl + D",
+        "isCorrect": false,
+        "rationale": "Ctrl + D duplica o slide no modo de edição."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "O que significa o termo 'Layout do Slide' no PowerPoint?",
+    "options": [
+      {
+        "text": "A cor e o tema de fundo do slide.",
+        "isCorrect": false,
+        "rationale": "Isso é parte do Design/Tema."
+      },
+      {
+        "text": "O efeito de transição usado para mover de um slide para o próximo.",
+        "isCorrect": false,
+        "rationale": "Isso é uma Transição."
+      },
+      {
+        "text": "O arranjo e o posicionamento dos espaços reservados (para título, texto, gráficos, etc.) no slide.",
+        "isCorrect": true,
+        "rationale": "O Layout define a estrutura visual dos placeholders, facilitando a organização do conteúdo."
+      },
+      {
+        "text": "A ordem dos objetos que aparecem no slide.",
+        "isCorrect": false,
+        "rationale": "Isso é controlado pelo Painel de Seleção e a ordem das Animações."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Em qualquer programa do Office, qual atalho de teclado é usado para abrir a caixa de diálogo 'Imprimir'?",
+    "options": [
+      {
+        "text": "Ctrl + S",
+        "isCorrect": false,
+        "rationale": "Ctrl + S é para Salvar."
+      },
+      {
+        "text": "Ctrl + P",
+        "isCorrect": true,
+        "rationale": "Ctrl + P (de 'Print' ou Imprimir) é o atalho universal para abrir as configurações de impressão."
+      },
+      {
+        "text": "Ctrl + I",
+        "isCorrect": false,
+        "rationale": "Ctrl + I é para Itálico."
+      },
+      {
+        "text": "F1",
+        "isCorrect": false,
+        "rationale": "F1 abre a Ajuda."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Qual atalho de teclado é usado para abrir a caixa de diálogo 'Localizar' (Find) em qualquer aplicativo do Office?",
+    "options": [
+      {
+        "text": "Ctrl + F",
+        "isCorrect": true,
+        "rationale": "Ctrl + F (de 'Find' ou Localizar) é o atalho universal para abrir o recurso de busca."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é para alinhamento à direita no Word."
+      },
+      {
+        "text": "Ctrl + U",
+        "isCorrect": false,
+        "rationale": "Ctrl + U é para Sublinhado (Underline)."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Embora Ctrl + L possa ser usado em português para Localizar, Ctrl + F é o mais universalmente aceito e funcional na maioria das versões."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Qual programa do Pacote Office é tipicamente usado para criar e gerenciar bancos de dados relacionais?",
+    "options": [
+      {
+        "text": "Microsoft Word",
+        "isCorrect": false,
+        "rationale": "Word é um processador de texto."
+      },
+      {
+        "text": "Microsoft Excel",
+        "isCorrect": false,
+        "rationale": "Excel é uma planilha, não um SGBD relacional."
+      },
+      {
+        "text": "Microsoft Access",
+        "isCorrect": true,
+        "rationale": "O Access é o Sistema de Gerenciamento de Banco de Dados (SGBD) do Pacote Office."
+      },
+      {
+        "text": "Microsoft PowerPoint",
+        "isCorrect": false,
+        "rationale": "PowerPoint é um software de apresentações."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qual é a principal função do OneNote no Pacote Office?",
+    "options": [
+      {
+        "text": "Edição de imagens e gráficos vetoriais.",
+        "isCorrect": false,
+        "rationale": "Essa não é a função primária do OneNote."
+      },
+      {
+        "text": "Criação de e-mails corporativos.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Outlook."
+      },
+      {
+        "text": "Tomada de notas digital, organização de informações e coleta de anotações multimídia em cadernos.",
+        "isCorrect": true,
+        "rationale": "O OneNote funciona como um caderno digital de anotações, suportando texto, imagens, áudio e desenhos."
+      },
+      {
+        "text": "Publicação de newsletters e folhetos.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Publisher."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Em termos de colaboração em tempo real, qual benefício a nuvem (OneDrive/SharePoint) trouxe para os aplicativos do Office (Word, Excel, PowerPoint)?",
+    "options": [
+      {
+        "text": "A capacidade de imprimir documentos mais rápido.",
+        "isCorrect": false,
+        "rationale": "A velocidade de impressão é um fator de hardware/rede local."
+      },
+      {
+        "text": "A necessidade de enviar o arquivo por e-mail a cada alteração.",
+        "isCorrect": false,
+        "rationale": "O objetivo da nuvem é justamente eliminar essa necessidade."
+      },
+      {
+        "text": "Permitir que múltiplos usuários editem o mesmo documento simultaneamente, com salvamento automático das alterações.",
+        "isCorrect": true,
+        "rationale": "A coautoria e o salvamento automático na nuvem são os maiores benefícios para a produtividade e trabalho em equipe."
+      },
+      {
+        "text": "A restrição de acesso a todos os arquivos, exceto ao proprietário.",
+        "isCorrect": false,
+        "rationale": "A nuvem permite o compartilhamento e o acesso fácil a quem for autorizado."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "No Word, qual combinação de teclas de atalho é usada para **Sublinhado** (Underline)?",
+    "options": [
+      {
+        "text": "Ctrl + S",
+        "isCorrect": false,
+        "rationale": "Ctrl + S é para Salvar."
+      },
+      {
+        "text": "Ctrl + U",
+        "isCorrect": true,
+        "rationale": "Ctrl + U (de 'Underline') aplica ou remove o sublinhado na seleção."
+      },
+      {
+        "text": "Ctrl + I",
+        "isCorrect": false,
+        "rationale": "Ctrl + I é para Itálico."
+      },
+      {
+        "text": "Ctrl + J",
+        "isCorrect": false,
+        "rationale": "Ctrl + J é para Justificado."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Qual guia do Word contém a ferramenta 'Contagem de Palavras' (Word Count)?",
+    "options": [
+      {
+        "text": "Inserir",
+        "isCorrect": false,
+        "rationale": "Inserir é para adicionar elementos."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": true,
+        "rationale": "A contagem de palavras é uma ferramenta de 'revisão' do conteúdo, assim como ortografia e gramática."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout é para formatação da página."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "No Word, para criar um Sumário (Índice) navegável e atualizável automaticamente, qual recurso é obrigatório utilizar nos títulos do documento?",
+    "options": [
+      {
+        "text": "Usar o formato Negrito e tamanho 16.",
+        "isCorrect": false,
+        "rationale": "Formatação manual não permite a criação automática e a navegação."
+      },
+      {
+        "text": "Aplicar os 'Estilos' de Título (Título 1, Título 2, etc.).",
+        "isCorrect": true,
+        "rationale": "O Word usa os 'Estilos' de título para mapear a estrutura do documento e criar o Sumário automaticamente."
+      },
+      {
+        "text": "Inserir uma Quebra de Página antes de cada título.",
+        "isCorrect": false,
+        "rationale": "Isso apenas adiciona uma página, não estrutura o índice."
+      },
+      {
+        "text": "Usar apenas a cor vermelha nos títulos.",
+        "isCorrect": false,
+        "rationale": "Cor não é um fator de estrutura para o índice."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "No Excel, se a célula A1 tem 50 e a célula A2 tem 10. Qual o resultado de `=A1^A2`?",
+    "options": [
+      {
+        "text": "500",
+        "isCorrect": false,
+        "rationale": "500 é o resultado de 50 * 10 (Multiplicação)."
+      },
+      {
+        "text": "5",
+        "isCorrect": false,
+        "rationale": "5 é o resultado de 50 / 10 (Divisão)."
+      },
+      {
+        "text": "50 elevado à potência 10 (um número muito grande).",
+        "isCorrect": true,
+        "rationale": "O símbolo circunflexo (^) é o operador de Potenciação no Excel, ou seja, A1 elevado a A2."
+      },
+      {
+        "text": "O erro #NÚM!.",
+        "isCorrect": false,
+        "rationale": "Não há erro de número na operação, pois ela é válida."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Qual a principal diferença entre a função `SOMA` e a função `SOMASE` no Excel?",
+    "options": [
+      {
+        "text": "A SOMA é apenas para números inteiros, enquanto a SOMASE é para decimais.",
+        "isCorrect": false,
+        "rationale": "Ambas funcionam com qualquer tipo de número."
+      },
+      {
+        "text": "A SOMA é para colunas, e a SOMASE é para linhas.",
+        "isCorrect": false,
+        "rationale": "Ambas funcionam em qualquer direção."
+      },
+      {
+        "text": "A SOMA calcula o total de um intervalo fixo; a SOMASE soma apenas as células que atendem a um critério (condição).",
+        "isCorrect": true,
+        "rationale": "A SOMASE adiciona a capacidade de filtragem (critério) à função de soma básica."
+      },
+      {
+        "text": "A SOMA pode usar intervalos, a SOMASE só pode usar células separadas.",
+        "isCorrect": false,
+        "rationale": "A SOMASE usa múltiplos intervalos para critério e soma."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "No Excel, para que serve a 'Referência Mista' (Ex: `A$1` ou `$A1`)?",
+    "options": [
+      {
+        "text": "Para travar a fórmula inteira.",
+        "isCorrect": false,
+        "rationale": "Isso seria uma Referência Absoluta ($A$1)."
+      },
+      {
+        "text": "Para travar apenas a coluna OU apenas a linha, permitindo que a outra parte se ajuste ao ser copiada.",
+        "isCorrect": true,
+        "rationale": "A Referência Mista é crucial para criar fórmulas que podem ser arrastadas horizontalmente ou verticalmente em tabelas."
+      },
+      {
+        "text": "Para fazer referência a uma célula em outra planilha (aba).",
+        "isCorrect": false,
+        "rationale": "Isso usaria o nome da planilha: Planilha2!A1."
+      },
+      {
+        "text": "Para marcar a célula como um nome de intervalo.",
+        "isCorrect": false,
+        "rationale": "Isso é feito na caixa de Nome."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Qual atalho de teclado é usado para mover o cursor para a próxima célula à direita no Excel?",
+    "options": [
+      {
+        "text": "Enter",
+        "isCorrect": false,
+        "rationale": "Enter move o cursor para baixo."
+      },
+      {
+        "text": "Shift + Enter",
+        "isCorrect": false,
+        "rationale": "Shift + Enter move o cursor para cima."
+      },
+      {
+        "text": "Tab",
+        "isCorrect": true,
+        "rationale": "A tecla Tab move o cursor horizontalmente para a próxima coluna/célula à direita."
+      },
+      {
+        "text": "Ctrl + Seta Direita",
+        "isCorrect": false,
+        "rationale": "Ctrl + Seta move para a borda da área de dados."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Qual é a principal função da 'Área de Transferência' (Clipboard) no Pacote Office?",
+    "options": [
+      {
+        "text": "Armazenar o histórico de salvamento do documento.",
+        "isCorrect": false,
+        "rationale": "O histórico de salvamento é controlado pelo OneDrive ou pela função de backup."
+      },
+      {
+        "text": "Armazenar temporariamente dados (texto, imagem) recortados ou copiados antes de serem colados.",
+        "isCorrect": true,
+        "rationale": "A Área de Transferência armazena temporariamente o conteúdo copiado (Ctrl+C) ou recortado (Ctrl+X)."
+      },
+      {
+        "text": "Exibir o rascunho de um documento antes da impressão.",
+        "isCorrect": false,
+        "rationale": "Isso é a Visualização de Impressão."
+      },
+      {
+        "text": "Gerenciar as macros e o código VBA.",
+        "isCorrect": false,
+        "rationale": "Isso é feito no Editor do Visual Basic."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "No PowerPoint, qual é a extensão de arquivo padrão para apresentações editáveis salvas a partir da versão 2007?",
+    "options": [
+      {
+        "text": ".ppt",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão do formato antigo (versões 97 a 2003)."
+      },
+      {
+        "text": ".pptx",
+        "isCorrect": true,
+        "rationale": "A extensão .pptx representa o formato XML Aberto do PowerPoint, padrão a partir de 2007."
+      },
+      {
+        "text": ".ppsx",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão para a apresentação de slides pronta para exibição ('Show')."
+      },
+      {
+        "text": ".pdf",
+        "isCorrect": false,
+        "rationale": "PDF é um formato universal de documentos."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Qual modo de exibição do PowerPoint é usado para adicionar anotações privadas que o apresentador pode ver em sua tela, mas o público não?",
+    "options": [
+      {
+        "text": "Modo de Estrutura de Tópicos",
+        "isCorrect": false,
+        "rationale": "Este modo foca apenas no texto e títulos."
+      },
+      {
+        "text": "Modo de Exibição de Leitura",
+        "isCorrect": false,
+        "rationale": "Este modo é uma tela cheia para leitura com controles simples."
+      },
+      {
+        "text": "Modo do Apresentador",
+        "isCorrect": true,
+        "rationale": "O Modo do Apresentador (Presenter View), usado em telas duplas, exibe as anotações, um cronômetro e a visualização do próximo slide apenas para o apresentador."
+      },
+      {
+        "text": "Classificação de Slides",
+        "isCorrect": false,
+        "rationale": "Este modo é para reordenar slides."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Para que serve a função `CONCATENAR` (ou o operador `&`) no Excel?",
+    "options": [
+      {
+        "text": "Para somar o valor de duas células.",
+        "isCorrect": false,
+        "rationale": "Essa é a função SOMA ou o operador '+'."
+      },
+      {
+        "text": "Para unir o conteúdo de duas ou mais células de texto em uma única célula.",
+        "isCorrect": true,
+        "rationale": "CONCATENAR é usada para juntar ou combinar strings de texto."
+      },
+      {
+        "text": "Para buscar um texto específico em um intervalo.",
+        "isCorrect": false,
+        "rationale": "Essa é a função PROCV/PROCH."
+      },
+      {
+        "text": "Para contar quantas células possuem texto.",
+        "isCorrect": false,
+        "rationale": "Essa é a função CONT.VALORES."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "No Excel, o que o atalho `Ctrl + Shift + L` faz em uma tabela de dados?",
+    "options": [
+      {
+        "text": "Aplica o alinhamento Justificado.",
+        "isCorrect": false,
+        "rationale": "Função do Word."
+      },
+      {
+        "text": "Abre a caixa de diálogo 'Localizar e Substituir'.",
+        "isCorrect": false,
+        "rationale": "Ctrl + U em português."
+      },
+      {
+        "text": "Ativa ou desativa a funcionalidade de Filtro Automático nos cabeçalhos.",
+        "isCorrect": true,
+        "rationale": "Este atalho é amplamente utilizado para aplicar filtros rapidamente em uma área de dados."
+      },
+      {
+        "text": "Insere uma nova linha acima da célula ativa.",
+        "isCorrect": false,
+        "rationale": "O atalho para inserir linha é Ctrl + Shift + (+)."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Qual é a extensão de arquivo padrão para pastas de trabalho editáveis do Microsoft Excel a partir da versão 2007?",
+    "options": [
+      {
+        "text": ".xls",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão do formato antigo (versões 97 a 2003)."
+      },
+      {
+        "text": ".xlsx",
+        "isCorrect": true,
+        "rationale": "A extensão .xlsx representa o formato XML Aberto do Excel, padrão a partir de 2007."
+      },
+      {
+        "text": ".csv",
+        "isCorrect": false,
+        "rationale": "CSV (Comma Separated Values) é um formato de texto simples, sem fórmulas ou formatação avançada."
+      },
+      {
+        "text": ".xlsm",
+        "isCorrect": false,
+        "rationale": "Esta extensão é usada para pastas de trabalho que contêm macros (código VBA)."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "No Excel, qual função é tipicamente usada para arredondar um número para o múltiplo de um valor especificado (Ex: arredondar para o múltiplo de 5)?",
+    "options": [
+      {
+        "text": "ARRED",
+        "isCorrect": false,
+        "rationale": "ARRED arredonda para um número específico de casas decimais."
+      },
+      {
+        "text": "TRUNCAR",
+        "isCorrect": false,
+        "rationale": "TRUNCAR apenas remove as casas decimais."
+      },
+      {
+        "text": "ARREDONDAR.PARA.CIMA",
+        "isCorrect": false,
+        "rationale": "Esta arredonda para o próximo inteiro ou para um número de casas decimais específico."
+      },
+      {
+        "text": "ARRED.MÚLTIPLO",
+        "isCorrect": true,
+        "rationale": "A função ARRED.MÚLTIPLO (MROUND em inglês) arredonda um número para o múltiplo de significância desejado."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Se a fórmula em B1 é `=A1*2`. Ao arrastar a alça de preenchimento para C1, qual será a nova fórmula em C1?",
+    "options": [
+      {
+        "text": "=A1*2",
+        "isCorrect": false,
+        "rationale": "Isso só aconteceria com referência absoluta."
+      },
+      {
+        "text": "=B1*2",
+        "isCorrect": true,
+        "rationale": "Ao mover a fórmula uma coluna para a direita, a referência relativa A1 se ajusta para B1."
+      },
+      {
+        "text": "=A2*2",
+        "isCorrect": false,
+        "rationale": "As referências de linha (1) só mudam se a fórmula for copiada verticalmente."
+      },
+      {
+        "text": "O erro #REF!",
+        "isCorrect": false,
+        "rationale": "A nova referência B1 é válida."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "No Word, qual atalho de teclado é usado para aplicar o alinhamento **Justificado** (alinhar o texto à esquerda e à direita) ao parágrafo selecionado?",
+    "options": [
+      {
+        "text": "Ctrl + E",
+        "isCorrect": false,
+        "rationale": "Ctrl + E é para Centralizar."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Ctrl + L é para Alinhar à Esquerda."
+      },
+      {
+        "text": "Ctrl + J",
+        "isCorrect": true,
+        "rationale": "Ctrl + J (de 'Justificado') aplica esse alinhamento, criando bordas retas em ambas as laterais do parágrafo."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é para Alinhar à Direita."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Qual guia do Word é usada para configurar uma mala direta (Mesclagem de Correspondência)?",
+    "options": [
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout é para margens e orientação."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas e cores."
+      },
+      {
+        "text": "Correspondências",
+        "isCorrect": true,
+        "rationale": "A Mesclagem de Correspondência (Mailings) é encontrada na guia 'Correspondências' e permite criar cartas, etiquetas ou envelopes em massa."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": false,
+        "rationale": "Revisão é para ortografia e gramática."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "No Word, o que a função 'Quebra de Página' (Ctrl + Enter) faz?",
+    "options": [
+      {
+        "text": "Inicia um novo parágrafo na mesma página.",
+        "isCorrect": false,
+        "rationale": "Essa é a função de pressionar apenas a tecla Enter."
+      },
+      {
+        "text": "Inicia o texto na próxima coluna.",
+        "isCorrect": false,
+        "rationale": "Isso é uma Quebra de Coluna."
+      },
+      {
+        "text": "Força o início do texto na próxima página, mantendo a mesma seção e formatação.",
+        "isCorrect": true,
+        "rationale": "É a forma manual de mover o conteúdo para a próxima página sem alterar a formatação de seção."
+      },
+      {
+        "text": "Muda a orientação da página (retrato/paisagem).",
+        "isCorrect": false,
+        "rationale": "Isso é feito com Quebra de Seção."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Qual é a função do recurso 'Layout de Impressão' (Print Layout) no Word?",
+    "options": [
+      {
+        "text": "Exibir o documento como seria em um navegador da web.",
+        "isCorrect": false,
+        "rationale": "Isso é o Layout da Web."
+      },
+      {
+        "text": "Exibir o texto com apenas títulos e corpo, sem formatação (modo de rascunho).",
+        "isCorrect": false,
+        "rationale": "Isso é o Modo Rascunho ou Estrutura de Tópicos."
+      },
+      {
+        "text": "Mostrar o documento exatamente como aparecerá quando for impresso (incluindo margens, cabeçalhos e colunas).",
+        "isCorrect": true,
+        "rationale": "O Layout de Impressão é a visualização padrão e mais fiel ao resultado final em papel."
+      },
+      {
+        "text": "Apenas exibir o documento para leitura, sem as ferramentas de edição.",
+        "isCorrect": false,
+        "rationale": "Isso é o Modo de Leitura."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "No PowerPoint, qual guia você usaria para aplicar um 'Tema' (Theme) diferente que muda o esquema de cores, fontes e planos de fundo de todos os slides?",
+    "options": [
+      {
+        "text": "Transições",
+        "isCorrect": false,
+        "rationale": "Transições são efeitos de passagem entre slides."
+      },
+      {
+        "text": "Animações",
+        "isCorrect": false,
+        "rationale": "Animações são efeitos em objetos."
+      },
+      {
+        "text": "Design",
+        "isCorrect": true,
+        "rationale": "A guia Design é onde os Temas (conjuntos prontos de formatação visual) são aplicados e personalizados."
+      },
+      {
+        "text": "Inserir",
+        "isCorrect": false,
+        "rationale": "Inserir é para adicionar elementos como caixas de texto ou imagens."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Qual atalho de teclado é usado no PowerPoint para duplicar um slide completo no painel de miniaturas?",
+    "options": [
+      {
+        "text": "Ctrl + C e Ctrl + V",
+        "isCorrect": false,
+        "rationale": "Embora funcione, o método mais direto é Ctrl + D."
+      },
+      {
+        "text": "Ctrl + D",
+        "isCorrect": true,
+        "rationale": "Ctrl + D (Duplicar) é o atalho padrão e mais rápido para criar uma cópia exata do slide selecionado no painel de miniaturas."
+      },
+      {
+        "text": "Ctrl + M",
+        "isCorrect": false,
+        "rationale": "Ctrl + M insere um novo slide na apresentação."
+      },
+      {
+        "text": "F4",
+        "isCorrect": false,
+        "rationale": "F4 repete a última ação (aplicável à duplicação, mas Ctrl+D é mais específico)."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "No PowerPoint, qual é a principal diferença entre uma Transição e uma Animação?",
+    "options": [
+      {
+        "text": "Transição é apenas para imagens; Animação é para texto.",
+        "isCorrect": false,
+        "rationale": "Ambos podem ser aplicados a vários tipos de objetos."
+      },
+      {
+        "text": "Transição é o efeito entre slides; Animação é o efeito em objetos dentro de um slide.",
+        "isCorrect": true,
+        "rationale": "Esta é a definição fundamental: Transição afeta o slide como um todo; Animação afeta o objeto individual."
+      },
+      {
+        "text": "Transição usa a guia Animações; Animação usa a guia Transições.",
+        "isCorrect": false,
+        "rationale": "Os nomes das guias são invertidos na afirmação."
+      },
+      {
+        "text": "Transição é apenas manual; Animação é apenas automática.",
+        "isCorrect": false,
+        "rationale": "Ambos podem ser automáticos ou manuais (ao clique)."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Qual é a extensão de arquivo padrão para um modelo de apresentação do PowerPoint (Template)?",
+    "options": [
+      {
+        "text": ".pptx",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão para um arquivo de apresentação normal."
+      },
+      {
+        "text": ".potx",
+        "isCorrect": true,
+        "rationale": "A extensão .potx é usada para salvar um arquivo como um 'Modelo' (Template), preservando o layout e o tema para uso futuro."
+      },
+      {
+        "text": ".ppsx",
+        "isCorrect": false,
+        "rationale": "Esta é a extensão para a apresentação de slides pronta para exibição ('Show')."
+      },
+      {
+        "text": ".docm",
+        "isCorrect": false,
+        "rationale": "Esta é uma extensão de documento do Word com macros."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Qual tecla de atalho é usada para inserir um novo slide na apresentação do PowerPoint (Modo de Edição)?",
+    "options": [
+      {
+        "text": "Ctrl + D",
+        "isCorrect": false,
+        "rationale": "Ctrl + D duplica o slide."
+      },
+      {
+        "text": "Ctrl + N",
+        "isCorrect": false,
+        "rationale": "Ctrl + N cria uma nova apresentação."
+      },
+      {
+        "text": "Ctrl + M",
+        "isCorrect": true,
+        "rationale": "Ctrl + M (de 'New Slide' ou Novo Slide, devido ao conflito com Ctrl+N) é o atalho padrão para inserir um novo slide."
+      },
+      {
+        "text": "Ctrl + Enter",
+        "isCorrect": false,
+        "rationale": "Ctrl + Enter é usado para ir para o próximo marcador de posição (placeholder) no slide."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "No Outlook, qual recurso é fundamental para garantir que você não perca compromissos e reuniões?",
+    "options": [
+      {
+        "text": "A Pasta de Itens Enviados.",
+        "isCorrect": false,
+        "rationale": "Essa pasta armazena e-mails já enviados."
+      },
+      {
+        "text": "O Gerenciador de Tarefas.",
+        "isCorrect": false,
+        "rationale": "O Gerenciador de Tarefas foca em pendências, não em agendamentos."
+      },
+      {
+        "text": "O Calendário.",
+        "isCorrect": true,
+        "rationale": "O Calendário é a ferramenta central do Outlook para agendamento, lembretes e organização de eventos e reuniões."
+      },
+      {
+        "text": "A Lista de Contatos.",
+        "isCorrect": false,
+        "rationale": "A Lista de Contatos armazena informações de pessoas."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Qual atalho de teclado é usado para abrir o recurso de **Substituir** (Replace) no Word e no Excel?",
+    "options": [
+      {
+        "text": "Ctrl + F",
+        "isCorrect": false,
+        "rationale": "Ctrl + F abre apenas a caixa de 'Localizar'."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é para Alinhar à Direita."
+      },
+      {
+        "text": "Ctrl + U",
+        "isCorrect": false,
+        "rationale": "Ctrl + U é para Sublinhado."
+      },
+      {
+        "text": "Ctrl + L ou Ctrl + H",
+        "isCorrect": true,
+        "rationale": "Em português, Ctrl + L geralmente abre a caixa Localizar/Substituir. Em inglês/padrão, é Ctrl + H (de 'Heplace', ou Alt+L)."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "No Excel, o que a função `MÍNIMO` retorna?",
+    "options": [
+      {
+        "text": "A média dos valores.",
+        "isCorrect": false,
+        "rationale": "Essa é a função MÉDIA."
+      },
+      {
+        "text": "O valor mais comum (moda).",
+        "isCorrect": false,
+        "rationale": "Essa é a função MODO."
+      },
+      {
+        "text": "O menor valor numérico em um conjunto de valores.",
+        "isCorrect": true,
+        "rationale": "A função MÍNIMO (MIN) é a forma correta de encontrar o valor mais baixo em um intervalo."
+      },
+      {
+        "text": "O número de células não vazias.",
+        "isCorrect": false,
+        "rationale": "Essa é a função CONT.VALORES."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Se o Excel mostra `#####` em uma célula, o que isso significa?",
+    "options": [
+      {
+        "text": "A fórmula tem um erro de sintaxe.",
+        "isCorrect": false,
+        "rationale": "Erros de sintaxe resultam em #NOME?."
+      },
+      {
+        "text": "A coluna é muito estreita para exibir o resultado completo do número ou data.",
+        "isCorrect": true,
+        "rationale": "O símbolo `#####` indica que o número formatado ou a data não cabem na largura atual da coluna. Basta alargar a coluna."
+      },
+      {
+        "text": "A célula contém um valor lógico FALSO.",
+        "isCorrect": false,
+        "rationale": "Valores lógicos aparecem como VERDADEIRO ou FALSO."
+      },
+      {
+        "text": "A célula está protegida contra edição.",
+        "isCorrect": false,
+        "rationale": "Células protegidas mostram uma mensagem de erro ao tentar editar."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Para que serve a função `SEERRO` (IFERROR) no Excel?",
+    "options": [
+      {
+        "text": "Para forçar uma fórmula a gerar um erro.",
+        "isCorrect": false,
+        "rationale": "A função visa evitar a exibição de erros."
+      },
+      {
+        "text": "Para verificar se a célula contém a palavra 'ERRO'.",
+        "isCorrect": false,
+        "rationale": "Essa é a função SE, combinada com PROCV."
+      },
+      {
+        "text": "Para retornar um valor que você especifica se uma fórmula resultar em um erro; caso contrário, retorna o resultado da fórmula.",
+        "isCorrect": true,
+        "rationale": "SEERRO é crucial para tornar planilhas mais amigáveis, substituindo erros feios (como #DIV/0!) por mensagens personalizadas ou células vazias."
+      },
+      {
+        "text": "Para corrigir automaticamente o erro na fórmula.",
+        "isCorrect": false,
+        "rationale": "Ela apenas oculta ou substitui o erro, mas não o corrige."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Qual atalho de teclado é usado para inserir uma **quebra de linha** (nova linha dentro da mesma célula) no Excel?",
+    "options": [
+      {
+        "text": "Enter",
+        "isCorrect": false,
+        "rationale": "Enter move para a célula abaixo."
+      },
+      {
+        "text": "Ctrl + Enter",
+        "isCorrect": false,
+        "rationale": "Ctrl + Enter preenche o intervalo selecionado."
+      },
+      {
+        "text": "Alt + Enter",
+        "isCorrect": true,
+        "rationale": "O atalho Alt + Enter, usado no modo de edição da célula, insere uma quebra de linha forçada, permitindo múltiplas linhas de texto na mesma célula."
+      },
+      {
+        "text": "Shift + Enter",
+        "isCorrect": false,
+        "rationale": "Shift + Enter move para a célula acima."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "No Word, o que a funcionalidade 'Marca D'água' (Watermark) adiciona ao documento?",
+    "options": [
+      {
+        "text": "Um texto ou imagem que aparece apenas na Visualização de Impressão.",
+        "isCorrect": false,
+        "rationale": "A Marca D'água aparece no layout de impressão, mas também na edição."
+      },
+      {
+        "text": "Um texto ou imagem de fundo (transparente ou esmaecido) que aparece em todas as páginas, geralmente para indicar status (Ex: CONFIDENCIAL).",
+        "isCorrect": true,
+        "rationale": "A Marca D'água é um fundo fantasma que fica na parte de trás do texto principal."
+      },
+      {
+        "text": "Uma borda colorida em torno da página.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com 'Bordas da Página'."
+      },
+      {
+        "text": "Um cabeçalho ou rodapé formatado.",
+        "isCorrect": false,
+        "rationale": "Cabeçalho/Rodapé é separado e pode ser facilmente editado."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Qual é a tecla de atalho usada para aplicar o formato **Itálico** (Italic) no Word?",
+    "options": [
+      {
+        "text": "Ctrl + N",
+        "isCorrect": false,
+        "rationale": "Ctrl + N é para Novo Documento."
+      },
+      {
+        "text": "Ctrl + I",
+        "isCorrect": true,
+        "rationale": "Ctrl + I (de 'Itálico' ou 'Italic') aplica ou remove o formato itálico na seleção."
+      },
+      {
+        "text": "Ctrl + T",
+        "isCorrect": false,
+        "rationale": "Ctrl + T seleciona todo o conteúdo."
+      },
+      {
+        "text": "Ctrl + U",
+        "isCorrect": false,
+        "rationale": "Ctrl + U é para Sublinhado."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "No Word, para que serve a 'Forma' (Shape) na guia Inserir?",
+    "options": [
+      {
+        "text": "Para criar novas tabelas complexas.",
+        "isCorrect": false,
+        "rationale": "Tabelas são inseridas pela ferramenta Tabela."
+      },
+      {
+        "text": "Para adicionar elementos gráficos simples como setas, linhas, estrelas ou balões de fala ao documento.",
+        "isCorrect": true,
+        "rationale": "As formas permitem criar diagramas básicos e destacar partes do texto com elementos gráficos pré-definidos."
+      },
+      {
+        "text": "Para mudar o tema de cores do documento.",
+        "isCorrect": false,
+        "rationale": "O tema é mudado na guia Design."
+      },
+      {
+        "text": "Para iniciar uma Mesclagem de Correspondência.",
+        "isCorrect": false,
+        "rationale": "Mesclagem de Correspondência é na guia Correspondências."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Qual é o principal uso da função `PROCH` (Procura Horizontal) no Excel?",
+    "options": [
+      {
+        "text": "Procurar um valor na primeira coluna de um intervalo.",
+        "isCorrect": false,
+        "rationale": "Essa é a função PROCV."
+      },
+      {
+        "text": "Procurar um valor na primeira linha de um intervalo e retornar um valor na mesma coluna de uma linha especificada.",
+        "isCorrect": true,
+        "rationale": "A função PROCH (Procura Horizontal) é usada quando a tabela de dados está organizada horizontalmente (títulos nas linhas)."
+      },
+      {
+        "text": "Contar quantas células em uma linha estão vazias.",
+        "isCorrect": false,
+        "rationale": "Essa é a função CONT.VAZIO."
+      },
+      {
+        "text": "Calcular o total de uma linha de dados.",
+        "isCorrect": false,
+        "rationale": "Essa é a função SOMA."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Qual atalho de teclado é usado para inserir a **hora** atual na célula ativa no Excel?",
+    "options": [
+      {
+        "text": "Ctrl + ;",
+        "isCorrect": false,
+        "rationale": "Ctrl + ; insere a data atual."
+      },
+      {
+        "text": "Ctrl + Shift + ;",
+        "isCorrect": true,
+        "rationale": "O atalho Ctrl + Shift + ; (ponto e vírgula) é a forma padrão para inserir a hora atual do sistema na célula."
+      },
+      {
+        "text": "Ctrl + Alt + H",
+        "isCorrect": false,
+        "rationale": "Não é um atalho padrão do Excel."
+      },
+      {
+        "text": "Ctrl + T",
+        "isCorrect": false,
+        "rationale": "Ctrl + T transforma a área selecionada em uma Tabela."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "No Excel, qual atalho de teclado é usado para **Repetir** a última ação realizada (como aplicar uma cor ou inserir um objeto)?",
+    "options": [
+      {
+        "text": "Ctrl + Z",
+        "isCorrect": false,
+        "rationale": "Ctrl + Z é para Desfazer."
+      },
+      {
+        "text": "Ctrl + Y",
+        "isCorrect": false,
+        "rationale": "Ctrl + Y é para Refazer (refazer uma ação desfeita)."
+      },
+      {
+        "text": "F4",
+        "isCorrect": true,
+        "rationale": "A tecla F4 repete o último comando ou a última ação de formatação realizada, sendo extremamente útil para economizar tempo."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é para Alinhar à Direita."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Qual erro no Excel indica que uma função está usando um **nome** que o programa não reconhece?",
+    "options": [
+      {
+        "text": "#VALOR!",
+        "isCorrect": false,
+        "rationale": "Erro de tipo de dados incompatíveis."
+      },
+      {
+        "text": "#NÚM!",
+        "isCorrect": false,
+        "rationale": "Erro de número inválido."
+      },
+      {
+        "text": "#NOME?",
+        "isCorrect": true,
+        "rationale": "O erro #NOME? (Name Error) é retornado quando o Excel não encontra o nome da função (Ex: escrever =SOMARR em vez de =SOMA)."
+      },
+      {
+        "text": "#REF!",
+        "isCorrect": false,
+        "rationale": "Erro de referência de célula inválida."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "No PowerPoint, a opção 'Apresentação Personalizada' (Custom Slide Show) é usada para qual finalidade?",
+    "options": [
+      {
+        "text": "Aplicar um tema de cores exclusivo em um único slide.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com o Design/Plano de Fundo."
+      },
+      {
+        "text": "Excluir permanentemente slides do arquivo.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com a função Excluir Slide."
+      },
+      {
+        "text": "Criar diferentes versões da mesma apresentação, exibindo apenas um subconjunto de slides para públicos distintos.",
+        "isCorrect": true,
+        "rationale": "Permite selecionar apenas os slides relevantes para uma audiência específica, mantendo o arquivo original completo."
+      },
+      {
+        "text": "Gravar a narração de áudio para todos os slides.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com a função Gravar Apresentação de Slides."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Para inserir uma imagem que se move pela tela (Ex: a imagem entra pela esquerda) no PowerPoint, você deve aplicar um efeito na guia:",
+    "options": [
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas visuais."
+      },
+      {
+        "text": "Transições",
+        "isCorrect": false,
+        "rationale": "Transições são efeitos na passagem de slides."
+      },
+      {
+        "text": "Animações",
+        "isCorrect": true,
+        "rationale": "Animações são os efeitos de movimento aplicados a objetos individuais (imagens, texto, formas) dentro do slide."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout é para a estrutura do slide."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Qual atalho de teclado é usado no PowerPoint para **Ocultar** o slide atual durante a apresentação (Modo F5)?",
+    "options": [
+      {
+        "text": "Pressionar 'H'",
+        "isCorrect": false,
+        "rationale": "A tecla 'H' não oculta o slide."
+      },
+      {
+        "text": "Pressionar 'B' ou 'W'",
+        "isCorrect": false,
+        "rationale": "Pressionar 'B' (Black) ou 'W' (White) deixa a tela preta ou branca temporariamente, mas não oculta o slide atual."
+      },
+      {
+        "text": "Pressionar a tecla 'S'",
+        "isCorrect": false,
+        "rationale": "A tecla 'S' pausa/reinicia a apresentação."
+      },
+      {
+        "text": "Ocultar Slide (opção do menu de contexto)",
+        "isCorrect": true,
+        "rationale": "Durante a apresentação, você precisa clicar com o botão direito e selecionar Ocultar Slide ou usar atalhos mais complexos que variam, mas a opção Ocultar Slide é a mais direta para configuração prévia."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "No Outlook, o que a funcionalidade 'Regras' permite fazer?",
+    "options": [
+      {
+        "text": "Bloquear o envio de e-mails para um domínio específico.",
+        "isCorrect": false,
+        "rationale": "O bloqueio de envio geralmente é controlado por políticas de servidor."
+      },
+      {
+        "text": "Criar automações para classificar, mover ou responder automaticamente a e-mails recebidos com base em critérios definidos (Ex: por assunto ou remetente).",
+        "isCorrect": true,
+        "rationale": "As Regras automatizam o gerenciamento da caixa de entrada, economizando tempo e mantendo a organização."
+      },
+      {
+        "text": "Definir a cor de fundo de todos os e-mails enviados.",
+        "isCorrect": false,
+        "rationale": "Isso é feito nas opções de design de e-mail."
+      },
+      {
+        "text": "Criptografar automaticamente todas as mensagens enviadas.",
+        "isCorrect": false,
+        "rationale": "A criptografia é uma configuração de segurança separada."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Qual atalho de teclado é usado para abrir a caixa de diálogo 'Novo Documento' (New) no Word, Excel e PowerPoint?",
+    "options": [
+      {
+        "text": "Ctrl + O",
+        "isCorrect": false,
+        "rationale": "Ctrl + O é para Abrir (Open) um documento existente."
+      },
+      {
+        "text": "Ctrl + P",
+        "isCorrect": false,
+        "rationale": "Ctrl + P é para Imprimir."
+      },
+      {
+        "text": "Ctrl + N",
+        "isCorrect": true,
+        "rationale": "Ctrl + N (de 'Novo' ou 'New') é o atalho universal para criar um novo arquivo em branco."
+      },
+      {
+        "text": "Ctrl + F",
+        "isCorrect": false,
+        "rationale": "Ctrl + F é para Localizar."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Qual o principal benefício do Microsoft OneNote em comparação com um bloco de notas de papel tradicional?",
+    "options": [
+      {
+        "text": "A capacidade de usar apenas texto puro.",
+        "isCorrect": false,
+        "rationale": "Blocos de notas de papel também usam texto, e o OneNote suporta muito mais."
+      },
+      {
+        "text": "A organização em cadernos, seções e páginas, a busca instantânea e a sincronização em nuvem.",
+        "isCorrect": true,
+        "rationale": "A organização digital e a capacidade de buscar qualquer texto em todas as anotações, além da sincronização em todos os dispositivos, são os maiores benefícios."
+      },
+      {
+        "text": "Apenas a possibilidade de desenhar à mão.",
+        "isCorrect": false,
+        "rationale": "Muitos blocos de papel permitem desenho; o OneNote faz muito mais."
+      },
+      {
+        "text": "A restrição de acesso sem senha.",
+        "isCorrect": false,
+        "rationale": "Embora o OneNote suporte senha, a restrição de acesso não é seu principal benefício em relação ao papel."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "No Word, o que a combinação de teclas `Ctrl + Alt + Del` faz?",
+    "options": [
+      {
+        "text": "Insere uma quebra de seção.",
+        "isCorrect": false,
+        "rationale": "Quebra de Seção é um recurso de Layout."
+      },
+      {
+        "text": "Deleta a palavra anterior ao cursor.",
+        "isCorrect": false,
+        "rationale": "Isso é feito com Ctrl + Backspace."
+      },
+      {
+        "text": "Abre o Gerenciador de Tarefas do Windows (função do Sistema Operacional).",
+        "isCorrect": true,
+        "rationale": "Esta combinação de teclas é uma função do Windows, não específica do Word, e tem como objetivo o controle do sistema."
+      },
+      {
+        "text": "Formata a fonte como Subscrito.",
+        "isCorrect": false,
+        "rationale": "Subscrito é formatado com Ctrl + =."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Qual a extensão de arquivo de um documento Word que **permite salvar Macros** (código VBA)?",
+    "options": [
+      {
+        "text": ".docx",
+        "isCorrect": false,
+        "rationale": "O .docx é o formato padrão sem macros."
+      },
+      {
+        "text": ".dotx",
+        "isCorrect": false,
+        "rationale": "O .dotx é um modelo sem macros."
+      },
+      {
+        "text": ".docm",
+        "isCorrect": true,
+        "rationale": "A extensão .docm (Documento do Word Habilitado para Macro) é o formato correto para arquivos que contêm código VBA."
+      },
+      {
+        "text": ".rtf",
+        "isCorrect": false,
+        "rationale": "RTF é um formato de texto formatado, mas não suporta macros do Word."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "No Excel, qual função retorna a **data e hora** atuais que se atualizam automaticamente toda vez que a planilha é recalculada?",
+    "options": [
+      {
+        "text": "DATA()",
+        "isCorrect": false,
+        "rationale": "A função DATA() apenas cria uma data com base em ano, mês e dia."
+      },
+      {
+        "text": "HOJE()",
+        "isCorrect": false,
+        "rationale": "A função HOJE() retorna apenas a data atual (sem a hora)."
+      },
+      {
+        "text": "AGORA()",
+        "isCorrect": true,
+        "rationale": "A função AGORA() (NOW) retorna a data e a hora do sistema e se atualiza dinamicamente."
+      },
+      {
+        "text": "HORA()",
+        "isCorrect": false,
+        "rationale": "A função HORA() retorna apenas a hora (em número decimal) de uma hora específica."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Se a célula C1 contém a fórmula `=SE(B1>10; \"Alto\"; \"Baixo\")`. Se B1 for 5, qual será o resultado em C1?",
+    "options": [
+      {
+        "text": "Alto",
+        "isCorrect": false,
+        "rationale": "O teste (5 > 10) é Falso, então ele retorna o 'valor_se_falso'."
+      },
+      {
+        "text": "Baixo",
+        "isCorrect": true,
+        "rationale": "Como 5 não é maior que 10, a condição é Falsa, e a função retorna o segundo valor (valor_se_falso)."
+      },
+      {
+        "text": "VERDADEIRO",
+        "isCorrect": false,
+        "rationale": "VERDADEIRO seria retornado se a condição B1>10 fosse o valor_se_verdadeiro."
+      },
+      {
+        "text": "10",
+        "isCorrect": false,
+        "rationale": "O resultado é texto, não um número."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Qual atalho de teclado é usado para selecionar **toda a coluna** onde a célula ativa se encontra no Excel?",
+    "options": [
+      {
+        "text": "Shift + Espaço",
+        "isCorrect": false,
+        "rationale": "Shift + Espaço seleciona toda a LINHA."
+      },
+      {
+        "text": "Ctrl + A",
+        "isCorrect": false,
+        "rationale": "Ctrl + A seleciona a área de dados atual ou a planilha inteira."
+      },
+      {
+        "text": "Ctrl + Espaço",
+        "isCorrect": true,
+        "rationale": "Ctrl + Espaço (Barra de Espaços) é o atalho padrão para selecionar a coluna inteira."
+      },
+      {
+        "text": "Alt + Espaço",
+        "isCorrect": false,
+        "rationale": "Alt + Espaço abre o menu de contexto da janela."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "No PowerPoint, qual é a finalidade principal do 'Painel de Animações' (Animation Pane)?",
+    "options": [
+      {
+        "text": "Adicionar novas transições entre slides.",
+        "isCorrect": false,
+        "rationale": "Transições são configuradas na guia Transições."
+      },
+      {
+        "text": "Personalizar a ordem, a duração e os gatilhos (triggers) dos efeitos de animação em um slide.",
+        "isCorrect": true,
+        "rationale": "O Painel de Animações é a ferramenta de controle fino para gerenciar a sequência e o timing de todos os efeitos de objetos."
+      },
+      {
+        "text": "Reorganizar a ordem dos slides na apresentação.",
+        "isCorrect": false,
+        "rationale": "Isso é feito no modo Classificação de Slides."
+      },
+      {
+        "text": "Inserir novas imagens e gráficos.",
+        "isCorrect": false,
+        "rationale": "Isso é feito na guia Inserir."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Qual extensão de arquivo o PowerPoint usa para salvar um arquivo que, quando clicado, inicia a apresentação **diretamente** (sem abrir o modo de edição)?",
+    "options": [
+      {
+        "text": ".pptx",
+        "isCorrect": false,
+        "rationale": "O .pptx abre o modo de edição."
+      },
+      {
+        "text": ".ppsx",
+        "isCorrect": true,
+        "rationale": "A extensão .ppsx (PowerPoint Show) é o formato correto para arquivos que iniciam imediatamente em tela cheia."
+      },
+      {
+        "text": ".potx",
+        "isCorrect": false,
+        "rationale": "O .potx é um modelo (template)."
+      },
+      {
+        "text": ".pdf",
+        "isCorrect": false,
+        "rationale": "PDF é um formato estático de documento."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "question": "No Word, qual é o atalho de teclado para remover a formatação manual (fonte, cor, tamanho) e retornar o texto ao estilo padrão do parágrafo?",
+    "options": [
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R alinha à direita."
+      },
+      {
+        "text": "Ctrl + Espaço",
+        "isCorrect": true,
+        "rationale": "Ctrl + Espaço é o atalho padrão para limpar toda a formatação manual direta aplicada ao texto, restaurando o estilo do parágrafo."
+      },
+      {
+        "text": "Ctrl + A",
+        "isCorrect": false,
+        "rationale": "Ctrl + A seleciona tudo."
+      },
+      {
+        "text": "Ctrl + X",
+        "isCorrect": false,
+        "rationale": "Ctrl + X recorta o texto."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Qual guia do Word é usada para inserir uma 'Nota de Rodapé' (Footnote) ou uma 'Citação' bibliográfica?",
+    "options": [
+      {
+        "text": "Inserir",
+        "isCorrect": false,
+        "rationale": "Inserir é para objetos como imagens e tabelas."
+      },
+      {
+        "text": "Referências",
+        "isCorrect": true,
+        "rationale": "A guia Referências é onde se encontram ferramentas para gestão de conteúdo acadêmico, como Sumário, Notas de Rodapé, Citações e Bibliografia."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout é para a página (margens)."
+      },
+      {
+        "text": "Revisão",
+        "isCorrect": false,
+        "rationale": "Revisão é para ortografia e gramática."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "question": "No Excel, qual atalho de teclado é usado para selecionar **toda a linha** onde a célula ativa se encontra?",
+    "options": [
+      {
+        "text": "Ctrl + Espaço",
+        "isCorrect": false,
+        "rationale": "Ctrl + Espaço seleciona a coluna."
+      },
+      {
+        "text": "Shift + Espaço",
+        "isCorrect": true,
+        "rationale": "Shift + Espaço (Barra de Espaços) é o atalho padrão para selecionar a linha inteira."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Ctrl + L abre a caixa Localizar."
+      },
+      {
+        "text": "Ctrl + A",
+        "isCorrect": false,
+        "rationale": "Ctrl + A seleciona a área de dados atual ou a planilha inteira."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Se a célula C1 contém `=A1*B1`. Qual a fórmula em D1 após copiar C1 para D1 (referência relativa)?",
+    "options": [
+      {
+        "text": "=A1*B1",
+        "isCorrect": false,
+        "rationale": "Permaneceria assim apenas se as referências fossem absolutas ($A$1*B$1)."
+      },
+      {
+        "text": "=B1*C1",
+        "isCorrect": true,
+        "rationale": "Ao mover uma coluna para a direita, a referência A1 se ajusta para B1 e a referência B1 se ajusta para C1."
+      },
+      {
+        "text": "=A2*B2",
+        "isCorrect": false,
+        "rationale": "A linha só se ajusta se a cópia for feita verticalmente."
+      },
+      {
+        "text": "=A1*C1",
+        "isCorrect": false,
+        "rationale": "O ajuste é progressivo (A vira B; B vira C)."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "question": "No Excel, qual função estatística retorna o valor que mais se repete (moda) em um conjunto de dados?",
+    "options": [
+      {
+        "text": "MÉDIA",
+        "isCorrect": false,
+        "rationale": "MÉDIA retorna o valor médio."
+      },
+      {
+        "text": "MED",
+        "isCorrect": false,
+        "rationale": "MED retorna a mediana (o valor central)."
+      },
+      {
+        "text": "MODO",
+        "isCorrect": true,
+        "rationale": "A função MODO (MODE) retorna o valor mais frequente ou que mais se repete no conjunto de dados."
+      },
+      {
+        "text": "MÁXIMO",
+        "isCorrect": false,
+        "rationale": "MÁXIMO retorna o maior valor."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Qual atalho de teclado insere um **novo slide** na apresentação do PowerPoint?",
+    "options": [
+      {
+        "text": "Ctrl + N",
+        "isCorrect": false,
+        "rationale": "Ctrl + N cria uma nova apresentação."
+      },
+      {
+        "text": "Ctrl + S",
+        "isCorrect": false,
+        "rationale": "Ctrl + S salva."
+      },
+      {
+        "text": "Ctrl + M",
+        "isCorrect": true,
+        "rationale": "Ctrl + M é o atalho padrão para inserir um novo slide na apresentação ativa."
+      },
+      {
+        "text": "Ctrl + D",
+        "isCorrect": false,
+        "rationale": "Ctrl + D duplica o slide."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "question": "No PowerPoint, qual é a finalidade principal do 'Modo de Exibição Mestre' (Master View)?",
+    "options": [
+      {
+        "text": "Reorganizar a ordem dos slides.",
+        "isCorrect": false,
+        "rationale": "Isso é feito no Classificação de Slides."
+      },
+      {
+        "text": "Modificar a estrutura de temas, fontes e layouts de forma centralizada para a apresentação inteira.",
+        "isCorrect": true,
+        "rationale": "Os Modos Mestres (Slide, Anotações e Folheto) permitem editar a base estrutural e visual da apresentação."
+      },
+      {
+        "text": "Exibir a apresentação em tela cheia.",
+        "isCorrect": false,
+        "rationale": "Isso é o Modo Apresentação de Slides."
+      },
+      {
+        "text": "Ver o slide e as anotações do apresentador simultaneamente.",
+        "isCorrect": false,
+        "rationale": "Isso é o Modo do Apresentador."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Para aplicar um efeito de **Saída** (Exit) em um objeto do PowerPoint, em qual guia você deve buscar a animação?",
+    "options": [
+      {
+        "text": "Transições",
+        "isCorrect": false,
+        "rationale": "Transições são entre slides."
+      },
+      {
+        "text": "Design",
+        "isCorrect": false,
+        "rationale": "Design é para temas."
+      },
+      {
+        "text": "Animações",
+        "isCorrect": true,
+        "rationale": "A guia Animações inclui as categorias de Entrada, Ênfase, Saída e Caminhos de Animação."
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false,
+        "rationale": "Layout é para a estrutura do slide."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Qual é a principal função do Outlook em relação ao uso corporativo?",
+    "options": [
+      {
+        "text": "Criar relatórios financeiros.",
+        "isCorrect": false,
+        "rationale": "Relatórios financeiros são criados no Excel."
+      },
+      {
+        "text": "Gerenciar a comunicação, o tempo e a organização profissional (e-mails, tarefas, calendário).",
+        "isCorrect": true,
+        "rationale": "O Outlook é um hub de comunicação e organização pessoal/profissional no Office."
+      },
+      {
+        "text": "Criar apresentações de alto impacto.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do PowerPoint."
+      },
+      {
+        "text": "Desenhar diagramas e fluxogramas complexos.",
+        "isCorrect": false,
+        "rationale": "Essa é a função do Visio (ou SmartArt/Formas)."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "question": "No Outlook, como é chamada a funcionalidade que permite agendar e sincronizar reuniões com outros colegas de trabalho?",
+    "options": [
+      {
+        "text": "Lista de E-mails.",
+        "isCorrect": false,
+        "rationale": "A Lista de E-mails é a caixa de entrada."
+      },
+      {
+        "text": "Painel de Configurações.",
+        "isCorrect": false,
+        "rationale": "O Painel de Configurações altera as preferências do programa."
+      },
+      {
+        "text": "Calendário / Agendador de Reuniões.",
+        "isCorrect": true,
+        "rationale": "O Calendário permite criar convites de reunião que são enviados por e-mail, sincronizando a disponibilidade dos participantes."
+      },
+      {
+        "text": "Diário de Bordo.",
+        "isCorrect": false,
+        "rationale": "O Diário de Bordo é para registrar atividades, mas não para agendamento de reuniões."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Qual é a principal diferença entre salvar um arquivo no **OneDrive** e salvar no **seu computador local**?",
+    "options": [
+      {
+        "text": "Não há diferença; o OneDrive é apenas um espelho do disco local.",
+        "isCorrect": false,
+        "rationale": "Embora sincronize, o OneDrive permite acesso remoto e colaboração."
+      },
+      {
+        "text": "O OneDrive requer que você esteja sempre offline; o local requer internet.",
+        "isCorrect": false,
+        "rationale": "O oposto é verdadeiro para o acesso remoto."
+      },
+      {
+        "text": "O OneDrive permite acesso a partir de qualquer dispositivo, colaboração em tempo real e oferece backup automático.",
+        "isCorrect": true,
+        "rationale": "A nuvem é focada em acessibilidade, backup e trabalho simultâneo."
+      },
+      {
+        "text": "O salvamento local é mais lento que o salvamento no OneDrive.",
+        "isCorrect": false,
+        "rationale": "O salvamento local é tipicamente mais rápido, pois não depende da velocidade da internet."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Qual atalho de teclado universal do Office é usado para **Colar** (Paste) o conteúdo da Área de Transferência?",
+    "options": [
+      {
+        "text": "Ctrl + C",
+        "isCorrect": false,
+        "rationale": "Ctrl + C é para Copiar."
+      },
+      {
+        "text": "Ctrl + X",
+        "isCorrect": false,
+        "rationale": "Ctrl + X é para Recortar."
+      },
+      {
+        "text": "Ctrl + V",
+        "isCorrect": true,
+        "rationale": "Ctrl + V (de 'Cola' ou 'Paste') é o atalho padrão e universal para colar o conteúdo copiado ou recortado."
+      },
+      {
+        "text": "Ctrl + Z",
+        "isCorrect": false,
+        "rationale": "Ctrl + Z é para Desfazer."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "question": "No Word, qual atalho de teclado é usado para aplicar o alinhamento **Alinhar à Esquerda** (Left Align)?",
+    "options": [
+      {
+        "text": "Ctrl + E",
+        "isCorrect": false,
+        "rationale": "Ctrl + E é para Centralizar."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": true,
+        "rationale": "Ctrl + L (de 'Left' ou Esquerda) é o atalho padrão para alinhar o texto à margem esquerda."
+      },
+      {
+        "text": "Ctrl + R",
+        "isCorrect": false,
+        "rationale": "Ctrl + R é para Alinhar à Direita."
+      },
+      {
+        "text": "Ctrl + J",
+        "isCorrect": false,
+        "rationale": "Ctrl + J é para Justificado."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Qual tecla de atalho é usada para **Recortar** (Cut) o conteúdo selecionado em qualquer aplicativo do Office?",
+    "options": [
+      {
+        "text": "Ctrl + C",
+        "isCorrect": false,
+        "rationale": "Ctrl + C é para Copiar."
+      },
+      {
+        "text": "Ctrl + V",
+        "isCorrect": false,
+        "rationale": "Ctrl + V é para Colar."
+      },
+      {
+        "text": "Ctrl + X",
+        "isCorrect": true,
+        "rationale": "Ctrl + X (de 'Scissors' ou Recortar) é o atalho padrão para remover o conteúdo da sua posição original e movê-lo para a Área de Transferência."
+      },
+      {
+        "text": "Ctrl + Z",
+        "isCorrect": false,
+        "rationale": "Ctrl + Z é para Desfazer."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "question": "No Excel, o que o erro `#N/A` geralmente indica?",
+    "options": [
+      {
+        "text": "Erro de divisão por zero.",
+        "isCorrect": false,
+        "rationale": "Este é o erro #DIV/0!."
+      },
+      {
+        "text": "Um valor não está disponível para uma função (Ex: PROCV não encontrou o valor de busca).",
+        "isCorrect": true,
+        "rationale": "O erro #N/A (Not Available) é o erro padrão retornado por funções de busca quando o valor procurado não é encontrado no intervalo."
+      },
+      {
+        "text": "O nome da função está errado.",
+        "isCorrect": false,
+        "rationale": "Este é o erro #NOME?."
+      },
+      {
+        "text": "Referência de célula inválida.",
+        "isCorrect": false,
+        "rationale": "Este é o erro #REF!."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Qual atalho de teclado é usado para abrir a caixa de diálogo 'Formatar Células' no Excel e, em seguida, pular diretamente para a guia 'Bordas'?",
+    "options": [
+      {
+        "text": "Ctrl + 1 (e depois Ctrl + B)",
+        "isCorrect": false,
+        "rationale": "Embora Ctrl+1 abra o Formatar Células, Ctrl+B é Negrito."
+      },
+      {
+        "text": "Ctrl + 5",
+        "isCorrect": false,
+        "rationale": "Ctrl + 5 aplica ou remove o tachado."
+      },
+      {
+        "text": "Ctrl + 1 (e depois Alt + B)",
+        "isCorrect": true,
+        "rationale": "Ctrl + 1 abre a caixa. Alt + B é o atalho de teclado (sublinhado) para a guia Bordas dentro da caixa 'Formatar Células'."
+      },
+      {
+        "text": "Ctrl + B",
+        "isCorrect": false,
+        "rationale": "Ctrl + B é Negrito."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "question": "No PowerPoint, qual é o atalho de teclado para inserir um Hiperlink no objeto selecionado?",
+    "options": [
+      {
+        "text": "Ctrl + C",
+        "isCorrect": false,
+        "rationale": "Ctrl + C é Copiar."
+      },
+      {
+        "text": "Ctrl + K",
+        "isCorrect": true,
+        "rationale": "Ctrl + K (de 'Hyperlink' ou 'Link') é o atalho universal para abrir a caixa de diálogo Inserir Hiperlink."
+      },
+      {
+        "text": "Ctrl + H",
+        "isCorrect": false,
+        "rationale": "Ctrl + H é para Substituir."
+      },
+      {
+        "text": "Ctrl + L",
+        "isCorrect": false,
+        "rationale": "Ctrl + L é para Alinhar à Esquerda."
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Qual programa do Office permite aos usuários criar e gerenciar apresentações interativas com botões de ação e narrações gravadas?",
+    "options": [
+      {
+        "text": "Microsoft Word",
+        "isCorrect": false,
+        "rationale": "O Word é para documentos de texto."
+      },
+      {
+        "text": "Microsoft Excel",
+        "isCorrect": false,
+        "rationale": "O Excel é para planilhas."
+      },
+      {
+        "text": "Microsoft PowerPoint",
+        "isCorrect": true,
+        "rationale": "O PowerPoint é o único programa entre os listados focado em apresentações e que suporta todos esses recursos interativos."
+      },
+      {
+        "text": "Microsoft Access",
+        "isCorrect": false,
+        "rationale": "O Access é para bancos de dados."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "question": "No Outlook, o que significa o termo 'Caixa de Entrada' (Inbox)?",
+    "options": [
+      {
+        "text": "A pasta onde todos os e-mails enviados são armazenados.",
+        "isCorrect": false,
+        "rationale": "Essa é a pasta 'Itens Enviados'."
+      },
+      {
+        "text": "A pasta principal onde os e-mails recebidos e novos são exibidos.",
+        "isCorrect": true,
+        "rationale": "A Caixa de Entrada (Inbox) é o local de recebimento e visualização de novas comunicações."
+      },
+      {
+        "text": "A lista de contatos do usuário.",
+        "isCorrect": false,
+        "rationale": "Essa é a seção 'Pessoas' ou 'Contatos'."
+      },
+      {
+        "text": "A lixeira para e-mails excluídos.",
+        "isCorrect": false,
+        "rationale": "Essa é a pasta 'Itens Excluídos'."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Qual atalho de teclado é usado para abrir o recurso de **Ortografia e Gramática** (Spelling and Grammar Check) em qualquer aplicativo do Office?",
+    "options": [
+      {
+        "text": "F1",
+        "isCorrect": false,
+        "rationale": "F1 abre o menu Ajuda."
+      },
+      {
+        "text": "F5",
+        "isCorrect": false,
+        "rationale": "F5 inicia a Apresentação de Slides (PowerPoint) ou o Ir Para (Word/Excel)."
+      },
+      {
+        "text": "F7",
+        "isCorrect": true,
+        "rationale": "A tecla de função F7 é o atalho universal do Office para iniciar a verificação de ortografia e gramática."
+      },
+      {
+        "text": "F12",
+        "isCorrect": false,
+        "rationale": "F12 abre a caixa de diálogo Salvar Como."
+      }
+    ]
+  }
+]
