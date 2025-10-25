@@ -6,10 +6,12 @@ Um quiz interativo e responsivo focado em aprimorar o domínio das principais fe
 
 ---
 
-## 🚀 Como Acessar e Jogar.*
-Acesse o Simulado pelo link: 
+## 🚀 Como Acessar e Jogar
 
-https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/
+Este projeto é hospedado via **GitHub Pages** e pode ser acessado diretamente pelo seu navegador:
+
+**[CLIQUE AQUI PARA JOGAR O QUIZ](https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/)** ```
+
 
 ## ✨ Funcionalidades Principais
 
