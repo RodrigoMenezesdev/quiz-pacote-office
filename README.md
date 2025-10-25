@@ -7,8 +7,9 @@ Um quiz interativo e responsivo focado em aprimorar o domínio das principais fe
 ---
 
 ## 🚀 Como Acessar e Jogar.*
-Ainda em formação 
----
+Acesse o Simulado pelo link: 
+
+https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/
 
 ## ✨ Funcionalidades Principais
 
