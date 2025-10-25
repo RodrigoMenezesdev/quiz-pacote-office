@@ -76,10 +76,12 @@ h1 {
     background-color: #dc3545 !important; /* Vermelho para incorreto */
 }
 
-/* Estilo dos Botões de Navegação (Laranja) */
+/* Estilo dos Botões de Navegação */
 #navigation-area {
+    /* ⭐️ AJUSTE: Garante o alinhamento central vertical */
     display: flex;
     justify-content: space-between;
+    align-items: center; 
     margin-top: 30px;
     padding-top: 20px;
     border-top: 2px solid #eee;
@@ -100,6 +102,36 @@ h1 {
 .nav-button:hover {
     background-color: #e07b00;
 }
+
+/* ⭐️ NOVO ESTILO: Botão de navegação desabilitado/estático */
+.nav-button:disabled {
+    opacity: 0.6; 
+    cursor: not-allowed; 
+    background-color: #ffb547; /* Laranja mais claro para indicar desabilitado */
+}
+
+/* ⭐️ NOVO ESTILO: Botão SAIR de dentro do bloco (ação de abandono) */
+.nav-button.exit-block-button {
+    background-color: #dc3545; /* Vermelho forte */
+    width: auto;
+    margin-right: 10px; /* Espaço entre o botão SAIR e VOLTAR */
+}
+
+.nav-button.exit-block-button:hover {
+    background-color: #c82333;
+}
+
+/* ⭐️ NOVO ESTILO: Mensagem de erro/validação ⭐️ */
+.validation-error {
+    color: #dc3545; /* Vermelho forte */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    /* Faz a mensagem ocupar o espaço central */
+    flex-grow: 1; 
+}
+
 
 /* Área de Resultados */
 #results-area {
@@ -140,7 +172,7 @@ h1 {
     gap: 20px;
 }
 
-/* ⭐️ CORREÇÃO APLICADA: Cor vermelha para o botão SAIR */
+/* Estilo para o botão SAIR na tela de resultados */
 .nav-button.exit-button {
     background-color: #dc3545; /* Vermelho */
     border-color: #dc3545;
@@ -151,7 +183,7 @@ h1 {
     border-color: #bd2130;
 }
 
-/* Opcional: Estilo para o botão TENTAR NOVAMENTE (para diferenciá-lo do NEXT/BACK) */
+/* Estilo para o botão TENTAR NOVAMENTE */
 .nav-button.try-again {
     /* Mantém o laranja padrão do .nav-button */
     background-color: #ff8c00;
