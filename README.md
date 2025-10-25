@@ -1,5 +1,7 @@
 # 💻 Quiz Pacote Office - 120 Perguntas
 
+Criado pelo Desenvolvedor : Rodrigo Morais 
+
 Um quiz interativo e responsivo focado em aprimorar o domínio das principais ferramentas do Microsoft Office (Word, Excel e PowerPoint). Perfeito para estudantes e profissionais que buscam certificação ou aprimoramento rápido.
 
 ---
@@ -46,4 +48,5 @@ O projeto é 100% front-end e utiliza apenas tecnologias web padrão:
 ## 🤝 Contribuições
 
 Este projeto foi desenvolvido como um exercício prático. Sugestões de melhorias, correções de bugs ou novas perguntas são bem-vindas!
+
 Oferecimento: Rodrigo Morais.Desenvolvedor.
