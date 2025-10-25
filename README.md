@@ -46,3 +46,4 @@ O projeto é 100% front-end e utiliza apenas tecnologias web padrão:
 ## 🤝 Contribuições
 
 Este projeto foi desenvolvido como um exercício prático. Sugestões de melhorias, correções de bugs ou novas perguntas são bem-vindas!
+Oferecimento: Rodrigo Morais.Desenvolvedor.
