@@ -14,9 +14,18 @@
 
         <div id="navigation-area">
             <button id="back-button" class="nav-button" style="display: none;">← Voltar</button>
-            <button id="next-button" class="nav-button" style="display: none;">Próximo Bloco →</button>
+
+            <button id="exit-block-button" class="nav-button exit-block-button" onclick="exitQuiz()">Sair</button>
+
+            <div id="validation-message" class="validation-error" style="display: none;">
+                ⚠️ Falta responder algumas perguntas para avançar.
+            </div>
+
+            <button id="next-button" class="nav-button" disabled>Próximo Bloco →</button>
+            
             <button id="finish-button" class="nav-button" style="display: none;">Finalizar Quiz</button>
         </div>
+
 
         <div id="results-area" style="display: none;">
             </div>
