@@ -11,7 +11,7 @@ Um quiz interativo e responsivo focado em aprimorar o domínio das principais fe
 Este projeto é hospedado via **GitHub Pages** e pode ser acessado diretamente pelo seu navegador:
 CLIQUE NO LINK ABAIXO PARA JOGAR O QUIZ:
 
-**[Simulado Office.120 QUESTÕES DE MULTIPLA ESCOLHA](https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/)** ```
+**[Simulado Office. QUESTÕES DE MULTIPLA ESCOLHAS](https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/)** ```
 
 **[Simulado Windows básico,50 QUESTÕES DE MULTIPLA ESCOLHA](https://rodrigomenezesdev.github.io/Quiz-Windows-basico-/)** ```
 
