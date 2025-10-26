@@ -9,8 +9,8 @@ Um quiz interativo e responsivo focado em aprimorar o domínio das principais fe
 ## 🚀 Como Acessar e Jogar
 
 Este projeto é hospedado via **GitHub Pages** e pode ser acessado diretamente pelo seu navegador:
-
-**[CLIQUE AQUI PARA JOGAR O QUIZ](https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/)** ```
+CLIQUE NO LINK ABAIXO PARA JOGAR O QUIZ:
+**[Simulado Office.120 QUESTÕES DE MULTIPLA ESCOLHA](https://rodrigomenezesdev.github.io/Quiz-Simulado-Office/)** ```
 
 
 ## ✨ Funcionalidades Principais
