@@ -17,7 +17,7 @@ CLIQUE NO LINK ABAIXO PARA JOGAR O QUIZ:
 
 ## ✨ Funcionalidades Principais
 
-* **120 Perguntas Dinâmicas:** Amplo conteúdo sobre o Pacote Office.
+* **Perguntas Dinâmicas:** Amplo conteúdo sobre o Pacote Office.
 * **Blocos de 10 Perguntas:** O quiz é dividido em blocos para facilitar o foco e a navegação.
 * **Feedback Imediato:** Visualização instantânea de acertos e erros após a resposta.
 * **Explicações Detalhadas:** Racionalização da resposta correta após a seleção.
