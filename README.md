@@ -15,7 +15,9 @@ CLIQUE NO LINK ABAIXO PARA JOGAR O QUIZ:
 
 **[Simulado Windows básico,50 QUESTÕES DE MULTIPLA ESCOLHA](https://rodrigomenezesdev.github.io/Quiz-Windows-basico-/)** ```
 
-**[Simulado Word básico. 50 QUESTÕES DE MULTIPLA ESCOLHAS](https://rodrigomenezesdev.github.io/quiz-basico-microsoft-word/)** ```
+**[Simulado Word básico. 50 QUESTÕES DE MULTIPLA ESCOLHAS](https://rodrigomenezesdev.github.io/quiz-basico-microsoft-word/)** `
+
+**[Simulado Excel básico. 50 QUESTÕES DE MULTIPLA ESCOLHAS](https://rodrigomenezesdev.github.io/Quiz-Excel-basico-/)** ```
 
 ## ✨ Funcionalidades Principais
 
